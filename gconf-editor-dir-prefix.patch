@@ -1,0 +1,19 @@
+diff -up gconf-editor-2.28.0/src/main.c.dir-prefix gconf-editor-2.28.0/src/main.c
+--- gconf-editor-2.28.0/src/main.c.dir-prefix	2010-03-21 22:13:40.300530784 -0400
++++ gconf-editor-2.28.0/src/main.c	2010-03-21 22:13:43.985530226 -0400
+@@ -29,7 +29,14 @@
+ static char *
+ build_accel_filename (void)
+ {
+-	return g_build_filename (g_get_home_dir (), ".gnome2", "accels", PACKAGE, NULL);
++        const char *override;
++
++        override = g_getenv ("GNOME22_USER_DIR");
++
++        if (override)
++                return g_build_filename (override, "accels", PACKAGE, NULL);
++        else
++                return g_build_filename (g_get_home_dir (), ".gnome2", "accels", PACKAGE, NULL);
+ }
+ 
+ static void

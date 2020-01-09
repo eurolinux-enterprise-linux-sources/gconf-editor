@@ -1,0 +1,519 @@
+# translation of gconf-editor.HEAD.gu.po to Gujarati
+# MagNet <magnet@magnet-i.com>, 2004.
+# Ankit Patel <ankit@redhat.com>, 2004, 2005, 2006, 2007.
+# Ankit Patel <ankit644@yahoo.com>, 2006.
+# Sweta Kothari <swkothar@redhat.com>, 2009.
+# Copyright (C) 2004, 2005, 2006, 2007, 2009 Free Software Foundation, Inc.
+msgid ""
+msgstr ""
+"Project-Id-Version: gconf-editor.HEAD.gu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-07 11:22+0100\n"
+"PO-Revision-Date: 2009-02-04 16:09+0530\n"
+"Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
+"Language-Team: Gujarati\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"<magnet@magnet-i.com>\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+# data/gconf-editor.desktop.in.h:1
+#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:392
+#: ../src/gconf-editor-window.c:394 ../src/gconf-editor-window.c:879
+#: ../src/gconf-editor-window.c:1376
+msgid "Configuration Editor"
+msgstr "રુપરેખા સંપાદક"
+
+# data/gconf-editor.desktop.in.h:2
+#: ../data/gconf-editor.desktop.in.in.h:2
+msgid "Directly edit your entire configuration database"
+msgstr "તમારા આખા ડેટાબેઝની રુપરેખામાં સીધો ફેરફાર કરો"
+
+# src/gconf-editor-window.c:178
+#: ../data/gconf-editor.schemas.in.h:1
+msgid "Bookmarks"
+msgstr "બુકમાર્કો"
+
+# src/gconf-editor-window.c:178
+#: ../data/gconf-editor.schemas.in.h:2
+msgid "gconf-editor folder bookmarks"
+msgstr "જીકોન્ફ-સંપાદક ફોલ્ડરની બુકમાર્કો"
+
+# src/gconf-editor-window.c:178
+#: ../src/gconf-bookmarks-dialog.c:197
+msgid "Edit Bookmarks"
+msgstr "બુકમાર્કોમાં ફેરફાર કરો"
+
+#: ../src/gconf-cell-renderer.c:144 ../src/gconf-cell-renderer.c:341
+msgid "<no value>"
+msgstr "<no value>"
+
+#: ../src/gconf-editor-window.c:358
+#, c-format
+msgid "Couldn't display help: %s"
+msgstr "મદદ દર્શાવી શક્યા નહિં: %s"
+
+# src/gconf-editor-window.c:157
+#: ../src/gconf-editor-window.c:398
+msgid "An editor for the GConf configuration system."
+msgstr "જીકોન્ફની રુપરેખાની સિસ્ટમ માટેનું સંપાદક."
+
+#: ../src/gconf-editor-window.c:401
+msgid "translator-credits"
+msgstr "અંકિત પટેલ <ankit644@yahoo.com>"
+
+# src/gconf-editor-window.c:210
+#: ../src/gconf-editor-window.c:428
+#, c-format
+msgid ""
+"Couldn't unset key. Error was:\n"
+"%s"
+msgstr ""
+"કીને અસુયોજીત કરી શકાય નહિ. ભૂલ હતી:\n"
+"%s"
+
+# src/gconf-editor-window.c:210
+#: ../src/gconf-editor-window.c:453
+#, c-format
+msgid ""
+"Could not create key. The error is:\n"
+"%s"
+msgstr ""
+"કીને બનાવી શકાય નહિ. ભૂલ હતી:\n"
+"%s"
+
+# src/gconf-editor-window.c:327
+#: ../src/gconf-editor-window.c:535
+#, c-format
+msgid ""
+"Could not change key value. Error message:\n"
+"%s"
+msgstr ""
+"કીનું મૂલ્ય બદલી શકાયુ નહિ. ભૂલનો સંદેશો:\n"
+"%s"
+
+# src/gconf-editor-window.c:304
+#: ../src/gconf-editor-window.c:567
+msgid ""
+"Currently pairs and schemas can't be edited. This will be changed in a later "
+"version."
+msgstr "અત્યારે જોડીઓ અને યોજનાઓમાં ફેરફાર કરી શકાશે નહિ. આ પછીનાં વર્ઝનમાં બદલવામાં આવશે."
+
+# src/gconf-editor-window.c:210
+#: ../src/gconf-editor-window.c:646
+#, c-format
+msgid ""
+"Could not set value. Error was:\n"
+"%s"
+msgstr ""
+"મૂલ્ય સુયોજિત થઈ શક્યુ નહિ. ભૂલ હતી:\n"
+"%s"
+
+# src/gconf-editor-window.c:210
+#: ../src/gconf-editor-window.c:684 ../src/gconf-editor-window.c:732
+#, c-format
+msgid ""
+"Could not sync value. Error was:\n"
+"%s"
+msgstr ""
+"મૂલ્ય સુમેળ થઈ શક્યુ નહિ. ભૂલ હતી:\n"
+"%s"
+
+# src/gconf-editor-window.c:171
+#: ../src/gconf-editor-window.c:746
+msgid "_File"
+msgstr "ફાઈલ (_F)"
+
+# src/gconf-editor-window.c:176
+#: ../src/gconf-editor-window.c:747
+msgid "_Edit"
+msgstr "ફેરફાર કરો (_E)"
+
+#: ../src/gconf-editor-window.c:748
+msgid "_Search"
+msgstr "શોધો (_S)"
+
+# src/gconf-editor-window.c:178
+#: ../src/gconf-editor-window.c:749
+msgid "_Bookmarks"
+msgstr "બુકમાર્કો (_B)"
+
+# src/gconf-editor-window.c:181
+#: ../src/gconf-editor-window.c:750
+msgid "_Help"
+msgstr "મદદ (_H)"
+
+#: ../src/gconf-editor-window.c:752
+msgid "New _Settings Window"
+msgstr "નવી સુયોજન વિન્ડો (_S)"
+
+#: ../src/gconf-editor-window.c:753
+msgid "Open a new Configuration Editor window editing current settings"
+msgstr "વર્તમાન સુયોજનોમાં ફેરફાર કરતી નવી રૂપરેખાંકન સંપાદક વિન્ડો ખોલો"
+
+#: ../src/gconf-editor-window.c:755
+msgid "New _Defaults Window"
+msgstr "નવી મૂળભુત વિન્ડો (_D)"
+
+#: ../src/gconf-editor-window.c:756
+msgid "Open a new Configuration Editor window editing system default settings"
+msgstr "સિસ્ટમ મૂળભુત સુયોજનોમાં ફેરફાર કરતી નવી રૂપરેખાંકન સંપાદક વિન્ડો ખોલો"
+
+#: ../src/gconf-editor-window.c:758
+msgid "New _Mandatory Window"
+msgstr "નવી જાતે ખોલેલી વિન્ડો (_M)"
+
+#: ../src/gconf-editor-window.c:759
+msgid "Open a new Configuration Editor window editing system mandatory settings"
+msgstr "સિસ્ટમના જરૂરી સુયોજનોમાં ફેરફાર કરતી નવી રૂપરેખાંકન સંપાદક વિન્ડો ખોલો"
+
+# src/gconf-editor-window.c:173
+#: ../src/gconf-editor-window.c:761
+msgid "_Close Window"
+msgstr "વિન્ડો બંધ કરો (_C)"
+
+# src/gconf-editor-window.c:173
+#: ../src/gconf-editor-window.c:761
+msgid "Close this window"
+msgstr "આ વિન્ડો બંધ કરો"
+
+# src/gconf-editor-window.c:175
+#: ../src/gconf-editor-window.c:763
+msgid "_Quit"
+msgstr "બહાર નીકળો (_Q)"
+
+# data/gconf-editor.desktop.in.h:1
+#: ../src/gconf-editor-window.c:763
+msgid "Quit the Configuration Editor"
+msgstr "રૂપરેખાંકન સંપાદકમાંથી બહાર નીકળો"
+
+# src/gconf-editor-window.c:177
+#: ../src/gconf-editor-window.c:766
+msgid "_Copy Key Name"
+msgstr "કીના નામની નકલ કરો (_C)"
+
+#: ../src/gconf-editor-window.c:766
+msgid "Copy the name of the selected key"
+msgstr "પસંદ કરેલ કીના નામની નકલ કરો"
+
+#: ../src/gconf-editor-window.c:768
+msgid "_Find..."
+msgstr "શોધો (_F)..."
+
+#: ../src/gconf-editor-window.c:768
+msgid "Find patterns in keys and values"
+msgstr "કી અને કિંમતોમાં ભાત શોધો"
+
+#: ../src/gconf-editor-window.c:770
+msgid "_List Recent Keys"
+msgstr "છેલ્લી કીની યાદી કરો (_L)"
+
+#: ../src/gconf-editor-window.c:770
+msgid "Show recently modified keys"
+msgstr "છેલ્લે સુધારાયેલ કી બતાવો"
+
+# src/gconf-editor-window.c:178
+#: ../src/gconf-editor-window.c:773
+msgid "_Add Bookmark"
+msgstr "બુકમાર્ક ઉમેપો (_A)"
+
+#: ../src/gconf-editor-window.c:773
+msgid "Add a bookmark to the selected directory"
+msgstr "પસંદ કરેલ ડિરેક્ટરીમાં બુકમાર્ક ઉમેરો"
+
+# src/gconf-editor-window.c:178
+#: ../src/gconf-editor-window.c:775
+msgid "_Edit Bookmarks"
+msgstr "બુકમાર્કોમાં ફેરફાર કરો (_E)"
+
+# src/gconf-editor-window.c:178
+#: ../src/gconf-editor-window.c:775
+msgid "Edit the bookmarks"
+msgstr "બુકમાર્કોમાં ફેરફાર કરો"
+
+#: ../src/gconf-editor-window.c:778
+msgid "_Contents"
+msgstr "સમાવિષ્ટો (_C)"
+
+#: ../src/gconf-editor-window.c:778
+msgid "Open the help contents for the Configuration Editor"
+msgstr "રૂપરેખાંકન સંપાદક માટે મદદ વિષયસૂચી ખોલો"
+
+#: ../src/gconf-editor-window.c:780
+msgid "_About"
+msgstr "વિશે (_A)"
+
+#: ../src/gconf-editor-window.c:780
+msgid "Show the about dialog for the Configuration Editor"
+msgstr "રૂપરેખાંકન સંપાદક માટે વિશે સંવાદ બતાવો"
+
+# src/gconf-editor-window.c:341
+#: ../src/gconf-editor-window.c:783
+msgid "_New Key..."
+msgstr "નવી કી (_N)..."
+
+#: ../src/gconf-editor-window.c:783
+msgid "Create a new key"
+msgstr "નવી કી બનાવો"
+
+# src/gconf-editor-window.c:342
+#: ../src/gconf-editor-window.c:785
+msgid "_Edit Key..."
+msgstr "ફેરફારની કી (_E)..."
+
+#: ../src/gconf-editor-window.c:785
+msgid "Edit the selected key"
+msgstr "પસંદ કરેલ કીમાં ફેરફાર કરો"
+
+# src/gconf-editor-window.c:344
+#: ../src/gconf-editor-window.c:787
+msgid "_Unset Key"
+msgstr "કી અસુયોજીત કરો (_U)"
+
+#: ../src/gconf-editor-window.c:787
+msgid "Unset the selected key"
+msgstr "પસંદ કરેલ કી અસુયોજિત કરો"
+
+#: ../src/gconf-editor-window.c:789
+msgid "Set as _Default"
+msgstr "મૂળભૂત રીતે સુયોજીત કરો (_D)"
+
+#: ../src/gconf-editor-window.c:789
+msgid "Set the selected key to be the default"
+msgstr "પસંદ કરેલ કીને મૂળભુત તરીકે સુયોજિત કરો"
+
+#: ../src/gconf-editor-window.c:791
+msgid "Set as _Mandatory"
+msgstr "જાતે સુયોજિત કરો (_M)"
+
+#: ../src/gconf-editor-window.c:791
+msgid "Set the selected key to the mandatory"
+msgstr "પસંદ કરેલ કીને જાતે સુયોજિત કરો"
+
+# data/gconf-editor.desktop.in.h:1
+#: ../src/gconf-editor-window.c:873
+msgid "Configuration Editor (Default settings)"
+msgstr "રૂપરેખાંકન સંપાદક (મૂળભૂત સુયોજનો)"
+
+# data/gconf-editor.desktop.in.h:1
+#: ../src/gconf-editor-window.c:876 ../src/gconf-editor-window.c:1373
+msgid "Configuration Editor (Mandatory settings)"
+msgstr "રૂપરેખાંકન સંપાદક (જરૂરી સુયોજનો)"
+
+#: ../src/gconf-editor-window.c:1122 ../src/gconf-editor-window.c:1123
+#: ../src/gconf-editor-window.c:1124 ../src/gconf-editor-window.c:1125
+#: ../src/gconf-editor-window.c:1154 ../src/gconf-editor-window.c:1162
+#: ../src/gconf-editor-window.c:1171 ../src/gconf-editor-window.c:1725
+#: ../src/gconf-editor-window.c:1737 ../src/gconf-editor-window.c:1749
+#: ../src/gconf-editor-window.c:1764
+msgid "(None)"
+msgstr "(કંઈ નહિ)"
+
+# src/gconf-editor-window.c:210
+#: ../src/gconf-editor-window.c:1332 ../src/gconf-editor-window.c:1342
+#, c-format
+msgid ""
+"Cannot create GConf engine. Error was:\n"
+"%s"
+msgstr ""
+"જીકોન્ફ યંત્ર બનાવી શકાયુ નહિ. ભૂલ હતી:\n"
+"%s"
+
+# data/gconf-editor.desktop.in.h:1
+#: ../src/gconf-editor-window.c:1370
+msgid "Configuration Editor (Defaults settings)"
+msgstr "રૂપરેખાંકન સંપાદક (મૂળભુત સુયોજનો)"
+
+# src/gconf-editor-window.c:558
+#: ../src/gconf-editor-window.c:1621
+msgid "Name"
+msgstr "નામ"
+
+# src/gconf-editor-window.c:579
+#: ../src/gconf-editor-window.c:1645
+msgid "Value"
+msgstr "મૂલ્ય"
+
+#: ../src/gconf-editor-window.c:1672
+msgid "Key Documentation"
+msgstr "કીનું દસ્તાવેજીકરણ"
+
+#: ../src/gconf-editor-window.c:1701 ../src/gconf-key-editor.c:604
+msgid "This key is not writable"
+msgstr "આ કી લખી શકાય તેવી નથી"
+
+#: ../src/gconf-editor-window.c:1714
+msgid "This key has no schema"
+msgstr "આ કી પાસે કોઈ પદ્ધતિ નથી"
+
+# src/gconf-key-editor.c:141
+#: ../src/gconf-editor-window.c:1719
+msgid "Key name:"
+msgstr "કીનું નામ:"
+
+# src/gconf-key-editor.c:141
+#: ../src/gconf-editor-window.c:1732
+msgid "Key owner:"
+msgstr "કીનો માલિક:"
+
+#: ../src/gconf-editor-window.c:1744
+msgid "Short description:"
+msgstr "નાનું વર્ણન:"
+
+#: ../src/gconf-editor-window.c:1757
+msgid "Long description:"
+msgstr "લાંબુ વર્ણન:"
+
+# src/gconf-key-editor.c:72
+#: ../src/gconf-key-editor.c:87
+msgid "T_rue"
+msgstr "ખરું (_r)"
+
+# src/gconf-key-editor.c:75 src/gconf-key-editor.c:194
+#: ../src/gconf-key-editor.c:90 ../src/gconf-key-editor.c:244
+#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:635
+msgid "_False"
+msgstr "ખોટંુ (_F)"
+
+# src/gconf-key-editor.c:90
+#. These have to be ordered so the EDIT_ enum matches the
+#. * menu indices
+#.
+#. These have to be ordered so the EDIT_ enum matches the
+#. * combobox indices
+#.
+#: ../src/gconf-key-editor.c:125 ../src/gconf-key-editor.c:155
+msgid "Integer"
+msgstr "પૂર્ણાંક"
+
+# src/gconf-key-editor.c:92
+#: ../src/gconf-key-editor.c:126 ../src/gconf-key-editor.c:156
+msgid "Boolean"
+msgstr "બુલિયન"
+
+# src/gconf-key-editor.c:94
+#: ../src/gconf-key-editor.c:127 ../src/gconf-key-editor.c:157
+msgid "String"
+msgstr "શબ્દમાળા"
+
+#. Translators: this refers to "Floating point":
+#. * see http://en.wikipedia.org/wiki/Floating_point
+#.
+#: ../src/gconf-key-editor.c:131
+msgid "Float"
+msgstr "અપૂણાઁક"
+
+#: ../src/gconf-key-editor.c:132
+msgid "List"
+msgstr "યાદી"
+
+#: ../src/gconf-key-editor.c:219
+msgid "Add New List Entry"
+msgstr "યાદીમાં નવો પ્રવેશ ઉમેરો"
+
+#: ../src/gconf-key-editor.c:235
+msgid "_New list value:"
+msgstr "યાદીની નવી કિંમત (_N):"
+
+#: ../src/gconf-key-editor.c:321
+msgid "Edit List Entry"
+msgstr "યાદીના પ્રવેશમાં ફેરફાર કરો"
+
+#: ../src/gconf-key-editor.c:337
+msgid "_Edit list value:"
+msgstr "યાદીની કિંમતમાં ફેરફાર કરો (_E):"
+
+#: ../src/gconf-key-editor.c:558
+msgid "Path:"
+msgstr "પથ:"
+
+# src/gconf-editor-window.c:558
+#: ../src/gconf-key-editor.c:569
+msgid "_Name:"
+msgstr "નામ (_N):"
+
+# src/gconf-key-editor.c:154
+#: ../src/gconf-key-editor.c:581
+msgid "_Type:"
+msgstr "પ્રકાર (_T):"
+
+# src/gconf-editor-window.c:579
+#: ../src/gconf-key-editor.c:616 ../src/gconf-key-editor.c:634
+#: ../src/gconf-key-editor.c:653 ../src/gconf-key-editor.c:670
+msgid "_Value:"
+msgstr "કિંમત (_V):"
+
+#: ../src/gconf-key-editor.c:693
+msgid "List _type:"
+msgstr "યાદીનાે પ્રકાર (_t):"
+
+# src/gconf-editor-window.c:579
+#: ../src/gconf-key-editor.c:701
+msgid "_Values:"
+msgstr "કિંમતો (_V):"
+
+# src/gconf-key-editor.c:255
+#: ../src/gconf-key-editor.c:803
+msgid "New Key"
+msgstr "નવી કી"
+
+# src/gconf-key-editor.c:259
+#: ../src/gconf-key-editor.c:807
+msgid "Edit Key"
+msgstr "કીમાં ફેરફાર કરો"
+
+#: ../src/gconf-search-dialog.c:60
+msgid "Pattern not found"
+msgstr "ભાત મળી નહિં"
+
+#: ../src/gconf-search-dialog.c:142
+msgid "Find"
+msgstr "શોધો"
+
+#: ../src/gconf-search-dialog.c:144
+msgid "_Search for: "
+msgstr "માટે શોધો (_S): "
+
+#: ../src/gconf-search-dialog.c:165
+msgid "Search also in key _names"
+msgstr "કી નામોમાં પણ શોધો (_n)"
+
+#: ../src/gconf-search-dialog.c:168
+msgid "Search also in key _values"
+msgstr "કી કિંમતોમાં પણ શોધો (_v)"
+
+#: ../src/gedit-output-window.c:347
+msgid "Close the output window"
+msgstr "આઉટપુટ વિન્ડો બંધ કરો"
+
+#: ../src/gedit-output-window.c:382
+msgid "Copy selected lines"
+msgstr "પસંદ કરેલ લીટીઓની નકલ કરો"
+
+#: ../src/gedit-output-window.c:399
+msgid "Clear the output window"
+msgstr "આઉટપુટ વિન્ડો સાફ કરો"
+
+#: ../src/gedit-output-window.c:438
+msgid "Output Lines"
+msgstr "આઉટપુટ લીટીઓ"
+
+#: ../src/main.c:69
+msgid "[KEY]"
+msgstr "[KEY]"
+
+# data/gconf-editor.desktop.in.h:2
+#: ../src/main.c:77
+msgid "- Directly edit your entire configuration database"
+msgstr "- તમારા વર્તમાન રૂપરેખાંકન ડેટાબેઝમાં સીધો જ ફેરફાર કરો"
+

@@ -1,0 +1,465 @@
+# translation of gconf-editor.HEAD.sk.po to Slovak
+# Slovak translations of gconf-editor.
+# Copyright (C) 2002, 2003, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Martin Lacko <lacko@host.sk>, 2002,2003
+# Peter Tuhársky <tuharsky@misbb.sk>, 2007.
+# Marcel Telka <marcel@telka.sk>, 2002, 2005, 2006, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gconf-editor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-10 16:24+0100\n"
+"PO-Revision-Date: 2008-03-10 15:30+0100\n"
+"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:854
+#: ../src/gconf-editor-window.c:1347
+msgid "Configuration Editor"
+msgstr "Editor konfigurácie"
+
+#: ../data/gconf-editor.desktop.in.in.h:2
+msgid "Directly edit your entire configuration database"
+msgstr "Priamo upraviť celú vašu konfiguračnú databázu"
+
+#: ../data/gconf-editor.schemas.in.h:1
+msgid "Bookmarks"
+msgstr "Záložky"
+
+#: ../data/gconf-editor.schemas.in.h:2
+msgid "gconf-editor folder bookmarks"
+msgstr "záložky priečinka pre gconf-editor"
+
+#: ../src/gconf-bookmarks-dialog.c:207
+msgid "Edit Bookmarks"
+msgstr "Upraviť záložky"
+
+#: ../src/gconf-cell-renderer.c:146 ../src/gconf-cell-renderer.c:343
+msgid "<no value>"
+msgstr "<bez hodnoty>"
+
+#: ../src/gconf-editor-window.c:368
+#, c-format
+msgid "Couldn't display help: %s"
+msgstr "Nepodarilo sa zobraziť pomocníka: %s"
+
+#: ../src/gconf-editor-window.c:402
+msgid "translator-credits"
+msgstr ""
+"Marcel Telka <marcel@telka.sk>\n"
+"Peter Tuhársky <tuharsky@misbb.sk>"
+
+#: ../src/gconf-editor-window.c:407
+msgid "An editor for the GConf configuration system."
+msgstr "Editor pre konfiguračný systém GConf."
+
+#: ../src/gconf-editor-window.c:437
+#, c-format
+msgid ""
+"Couldn't unset key. Error was:\n"
+"%s"
+msgstr ""
+"Nepodarilo sa zrušiť kľúč. Chyba bola:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:462
+#, c-format
+msgid ""
+"Could not create key. The error is:\n"
+"%s"
+msgstr ""
+"Nepodarilo sa vytvoriť kľúč. Chyba je:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:544
+#, c-format
+msgid ""
+"Could not change key value. Error message:\n"
+"%s"
+msgstr ""
+"Nepodarilo sa zmeniť hodnotu kľúča. Chybová správa:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:576
+msgid ""
+"Currently pairs and schemas can't be edited. This will be changed in a later "
+"version."
+msgstr ""
+"V súčasnosti sa páry a schémy nedajú upravovať. Toto sa zmení v neskoršej "
+"verzii."
+
+#: ../src/gconf-editor-window.c:680 ../src/gconf-editor-window.c:715
+#, c-format
+msgid ""
+"Could not sync value. Error was:\n"
+"%s"
+msgstr ""
+"Nepodarilo sa synchronizovať hodnotu. Chyba bola:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:721
+msgid "_File"
+msgstr "_Súbor"
+
+#: ../src/gconf-editor-window.c:722
+msgid "_Edit"
+msgstr "_Upraviť"
+
+#: ../src/gconf-editor-window.c:723
+msgid "_Search"
+msgstr "_Hľadať"
+
+#: ../src/gconf-editor-window.c:724
+msgid "_Bookmarks"
+msgstr "_Záložky"
+
+#: ../src/gconf-editor-window.c:725
+msgid "_Help"
+msgstr "_Pomocník"
+
+#: ../src/gconf-editor-window.c:727
+msgid "New _Settings Window"
+msgstr "Okno nových na_stavení"
+
+#: ../src/gconf-editor-window.c:728
+msgid "Open a new Configuration Editor window editing current settings"
+msgstr "Otvoriť nové okno Editora konfigurácie s úpravou aktuálnych nastavení"
+
+#: ../src/gconf-editor-window.c:730
+msgid "New _Defaults Window"
+msgstr "Nové okno _predvolených nastavení"
+
+#: ../src/gconf-editor-window.c:731
+msgid "Open a new Configuration Editor window editing system default settings"
+msgstr ""
+"Otvoriť nové okno Editora konfigurácie s úpravou predvolených nastavení "
+"systému"
+
+#: ../src/gconf-editor-window.c:733
+msgid "New _Mandatory Window"
+msgstr "Nové okno p_ovinných nastavení"
+
+#: ../src/gconf-editor-window.c:734
+msgid ""
+"Open a new Configuration Editor window editing system mandatory settings"
+msgstr ""
+"Otvoriť nové okno Editora konfigurácie s úpravou povinných nastavení systému"
+
+#: ../src/gconf-editor-window.c:736
+msgid "_Close Window"
+msgstr "_Zatvoriť okno"
+
+#: ../src/gconf-editor-window.c:736
+msgid "Close this window"
+msgstr "Zatvoriť toto okno"
+
+#: ../src/gconf-editor-window.c:738
+msgid "_Quit"
+msgstr "_Koniec"
+
+#: ../src/gconf-editor-window.c:738
+msgid "Quit the Configuration Editor"
+msgstr "Ukončiť Editor konfigurácie"
+
+#: ../src/gconf-editor-window.c:741
+msgid "_Copy Key Name"
+msgstr "_Kopírovať názov kľúča"
+
+#: ../src/gconf-editor-window.c:741
+msgid "Copy the name of the selected key"
+msgstr "Kopírovať názov označeného kľúča"
+
+#: ../src/gconf-editor-window.c:743
+msgid "_Find..."
+msgstr "_Nájsť..."
+
+#: ../src/gconf-editor-window.c:743
+msgid "Find patterns in keys and values"
+msgstr "Nájsť vzory v kľúčoch a hodnotách"
+
+#: ../src/gconf-editor-window.c:745
+msgid "_List Recent Keys"
+msgstr "_Vypísať nedávne kľúče"
+
+#: ../src/gconf-editor-window.c:745
+msgid "Show recently modified keys"
+msgstr "Zobraziť nedávno upravované kľúče"
+
+#: ../src/gconf-editor-window.c:748
+msgid "_Add Bookmark"
+msgstr "_Pridať záložku"
+
+#: ../src/gconf-editor-window.c:748
+msgid "Add a bookmark to the selected directory"
+msgstr "Pridať záložku do vybraného priečinka"
+
+#: ../src/gconf-editor-window.c:750
+msgid "_Edit Bookmarks"
+msgstr "_Upraviť záložky"
+
+#: ../src/gconf-editor-window.c:750
+msgid "Edit the bookmarks"
+msgstr "Upraviť záložky"
+
+#: ../src/gconf-editor-window.c:753
+msgid "_Contents"
+msgstr "_Obsah"
+
+#: ../src/gconf-editor-window.c:753
+msgid "Open the help contents for the Configuration Editor"
+msgstr "Otvoriť obsah pomocníka pre Editor konfigurácie"
+
+#: ../src/gconf-editor-window.c:755
+msgid "_About"
+msgstr "_O programe"
+
+#: ../src/gconf-editor-window.c:755
+msgid "Show the about dialog for the Configuration Editor"
+msgstr "Zobraziť dialógové okno s informáciami o Editore konfigurácie"
+
+#: ../src/gconf-editor-window.c:758
+msgid "_New Key..."
+msgstr "_Nový kľúč..."
+
+#: ../src/gconf-editor-window.c:758
+msgid "Create a new key"
+msgstr "Vytvoriť nový kľúč"
+
+#: ../src/gconf-editor-window.c:760
+msgid "_Edit Key..."
+msgstr "_Upraviť kľúč..."
+
+#: ../src/gconf-editor-window.c:760
+msgid "Edit the selected key"
+msgstr "Upraviť označený kľúč"
+
+#: ../src/gconf-editor-window.c:762
+msgid "_Unset Key"
+msgstr "_Zrušiť kľúč"
+
+#: ../src/gconf-editor-window.c:762
+msgid "Unset the selected key"
+msgstr "Zrušiť označený kľúč"
+
+#: ../src/gconf-editor-window.c:764
+msgid "Set as _Default"
+msgstr "Nastaviť ako pre_dvolený"
+
+#: ../src/gconf-editor-window.c:764
+msgid "Set the selected key to be the default"
+msgstr "Nastaviť označený kľúč ako predvolený"
+
+#: ../src/gconf-editor-window.c:766
+msgid "Set as _Mandatory"
+msgstr "Nastaviť ako _povinný"
+
+#: ../src/gconf-editor-window.c:766
+msgid "Set the selected key to the mandatory"
+msgstr "Nastaviť označený kľúč ako povinný"
+
+#: ../src/gconf-editor-window.c:848
+msgid "Configuration Editor (Default settings)"
+msgstr "Editor konfigurácie (Predvolené nastavenia)"
+
+#: ../src/gconf-editor-window.c:851 ../src/gconf-editor-window.c:1344
+msgid "Configuration Editor (Mandatory settings)"
+msgstr "Editor konfigurácie (Povinné nastavenia)"
+
+#: ../src/gconf-editor-window.c:1093 ../src/gconf-editor-window.c:1094
+#: ../src/gconf-editor-window.c:1095 ../src/gconf-editor-window.c:1096
+#: ../src/gconf-editor-window.c:1125 ../src/gconf-editor-window.c:1133
+#: ../src/gconf-editor-window.c:1142 ../src/gconf-editor-window.c:1666
+#: ../src/gconf-editor-window.c:1678 ../src/gconf-editor-window.c:1690
+#: ../src/gconf-editor-window.c:1705
+msgid "(None)"
+msgstr "(Nič)"
+
+#: ../src/gconf-editor-window.c:1303 ../src/gconf-editor-window.c:1313
+#, c-format
+msgid ""
+"Cannot create GConf engine. Error was:\n"
+"%s"
+msgstr ""
+"Nepodarilo sa vytvoriť jadro GConf. Chyba bola:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:1341
+msgid "Configuration Editor (Defaults settings)"
+msgstr "Editor konfigurácie (Predvolené nastavenia)"
+
+#: ../src/gconf-editor-window.c:1409
+msgid "Type"
+msgstr "Typ"
+
+#: ../src/gconf-editor-window.c:1410
+msgid "The Configuration Editor window type."
+msgstr "Typ okna Editora konfigurácie."
+
+#: ../src/gconf-editor-window.c:1563
+msgid "Name"
+msgstr "Názov"
+
+#: ../src/gconf-editor-window.c:1586
+msgid "Value"
+msgstr "Hodnota"
+
+#: ../src/gconf-editor-window.c:1613
+msgid "Key Documentation"
+msgstr "Dokumentácia kľúča"
+
+#: ../src/gconf-editor-window.c:1642 ../src/gconf-key-editor.c:619
+msgid "This key is not writable"
+msgstr "Tento kľúč nie je zapisovateľný"
+
+#: ../src/gconf-editor-window.c:1655
+msgid "This key has no schema"
+msgstr "Tento kľúč nemá schému"
+
+#: ../src/gconf-editor-window.c:1660
+msgid "Key name:"
+msgstr "Názov kľúča:"
+
+#: ../src/gconf-editor-window.c:1673
+msgid "Key owner:"
+msgstr "Vlastník kľúča:"
+
+#: ../src/gconf-editor-window.c:1685
+msgid "Short description:"
+msgstr "Krátky popis:"
+
+#: ../src/gconf-editor-window.c:1698
+msgid "Long description:"
+msgstr "Dlhý popis:"
+
+#: ../src/gconf-key-editor.c:105
+msgid "T_rue"
+msgstr "_Pravda"
+
+#: ../src/gconf-key-editor.c:108 ../src/gconf-key-editor.c:259
+#: ../src/gconf-key-editor.c:364 ../src/gconf-key-editor.c:650
+msgid "_False"
+msgstr "_Nepravda"
+
+#. These have to be ordered so the EDIT_ enum matches the
+#. * menu indices
+#.
+#. These have to be ordered so the EDIT_ enum matches the
+#. * combobox indices
+#.
+#: ../src/gconf-key-editor.c:143 ../src/gconf-key-editor.c:170
+msgid "Integer"
+msgstr "Celé číslo"
+
+#: ../src/gconf-key-editor.c:144 ../src/gconf-key-editor.c:171
+msgid "Boolean"
+msgstr "Booleovský"
+
+#: ../src/gconf-key-editor.c:145 ../src/gconf-key-editor.c:172
+msgid "String"
+msgstr "Reťazec"
+
+#: ../src/gconf-key-editor.c:146
+#, fuzzy
+msgid "Float"
+msgstr "Uvoľniť"
+
+#: ../src/gconf-key-editor.c:147
+msgid "List"
+msgstr "Zoznam"
+
+#: ../src/gconf-key-editor.c:234
+msgid "Add New List Entry"
+msgstr "Pridať novú položku zoznamu"
+
+#: ../src/gconf-key-editor.c:250
+msgid "_New list value:"
+msgstr "_Nová hodnota zoznamu:"
+
+#: ../src/gconf-key-editor.c:336
+msgid "Edit List Entry"
+msgstr "Upraviť položku zoznamu"
+
+#: ../src/gconf-key-editor.c:352
+msgid "_Edit list value:"
+msgstr "_Upraviť hodnotu zoznamu:"
+
+#: ../src/gconf-key-editor.c:573
+msgid "Path:"
+msgstr "Cesta:"
+
+#: ../src/gconf-key-editor.c:584
+msgid "_Name:"
+msgstr "_Názov:"
+
+#: ../src/gconf-key-editor.c:596
+msgid "_Type:"
+msgstr "_Typ:"
+
+#: ../src/gconf-key-editor.c:631 ../src/gconf-key-editor.c:649
+#: ../src/gconf-key-editor.c:668 ../src/gconf-key-editor.c:685
+msgid "_Value:"
+msgstr "_Hodnota:"
+
+#: ../src/gconf-key-editor.c:708
+msgid "List _type:"
+msgstr "_Typ zoznamu:"
+
+#: ../src/gconf-key-editor.c:716
+msgid "_Values:"
+msgstr "_Hodnoty:"
+
+#: ../src/gconf-key-editor.c:818
+msgid "New Key"
+msgstr "Nový kľúč"
+
+#: ../src/gconf-key-editor.c:822
+msgid "Edit Key"
+msgstr "Upraviť kľúč"
+
+#: ../src/gconf-search-dialog.c:59
+msgid "Pattern not found"
+msgstr "Vzor nebol nájdený"
+
+#: ../src/gconf-search-dialog.c:144
+msgid "Find"
+msgstr "Nájsť"
+
+#: ../src/gconf-search-dialog.c:146
+msgid "_Search for: "
+msgstr "_Vyhľadať: "
+
+#: ../src/gconf-search-dialog.c:167
+msgid "Search also in key _names"
+msgstr "Hľadať tiež v _názvoch kľúčov"
+
+#: ../src/gconf-search-dialog.c:170
+msgid "Search also in key _values"
+msgstr "Hľadať tiež v _hodnotách kľúčov"
+
+#: ../src/gedit-output-window.c:378
+msgid "Close the output window"
+msgstr "Zatvoriť okno výstupu"
+
+#: ../src/gedit-output-window.c:416
+msgid "Copy selected lines"
+msgstr "Kopírovať označené riadky"
+
+#: ../src/gedit-output-window.c:436
+msgid "Clear the output window"
+msgstr "Vyčistiť okno výstupu"
+
+#: ../src/gedit-output-window.c:476
+msgid "Output Lines"
+msgstr "Výstupné riadky"
+
+#: ../src/main.c:42
+msgid "[KEY]"
+msgstr "[KĽÚČ]"
+
+#: ../src/main.c:50
+msgid "- Directly edit your entire configuration database"
+msgstr "- Priamo upraviť celú vašu konfiguračnú databázu"

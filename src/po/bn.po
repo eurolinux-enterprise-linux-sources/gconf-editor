@@ -1,0 +1,563 @@
+# The Bengali translation of GConf-Editor
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the GConf-Editor package.
+# Muhammad Mahmudur Rahman Khana <mrk_ju@yahoo.com>, YEAR.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GConf-Editor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-10-01 05:28+0200\n"
+"PO-Revision-Date: 2005-09-30 23:51+0600\n"
+"Last-Translator: Mahay Alam Khan <makl10n@yahoo.com>\n"
+"Language-Team: Bengali <gnome-translatio@bengalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:847
+#: ../src/gconf-editor-window.c:1351
+msgid "Configuration Editor"
+msgstr "কনফিগারেশন সম্পাদক"
+
+# might be : আপনার সম্পূর্ণ কনফিগারেশন ডাটাবেস সরাসরি এডিট করুন - mak
+#: ../data/gconf-editor.desktop.in.in.h:2
+msgid "Directly edit your entire configuration database"
+msgstr "তোমার সম্পূর্ণ কনফিগারেশন ডাটাবেস সরাসরি সম্পাদন কর"
+
+#: ../data/gconf-editor.schemas.in.h:1
+msgid "Bookmarks"
+msgstr "বুকমার্কসমূহ"
+
+#: ../data/gconf-editor.schemas.in.h:2
+msgid "gconf-editor folder bookmarks"
+msgstr "gconf-সম্পাদক ফোল্ডারের বুকমার্ক"
+
+#: ../src/gconf-bookmarks-dialog.c:207
+msgid "Edit Bookmarks"
+msgstr "বুকমার্ক সম্পাদন কর"
+
+#: ../src/gconf-editor-window.c:361
+#, c-format
+msgid "Couldn't display help: %s"
+msgstr "সহায়িকা দেখানো যাচ্ছেনা: %s"
+
+#: ../src/gconf-editor-window.c:395
+msgid "translator_credits"
+msgstr "অঙ্কুর প্রকল্পের পক্ষে মাহে আলম খান (makl10n@yahoo.com)"
+
+#: ../src/gconf-editor-window.c:400
+msgid "An editor for the GConf configuration system."
+msgstr "GConf কনফিগারেশন সিস্টেমের জন্য একটি সম্পাদক।"
+
+#: ../src/gconf-editor-window.c:430
+#, c-format
+msgid ""
+"Couldn't unset key. Error was:\n"
+"%s"
+msgstr ""
+"কী আনসেট করা সম্ভব হয়নি। ত্রুটিটা হলো:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:455
+#, c-format
+msgid ""
+"Could not create key. The error is:\n"
+"%s"
+msgstr ""
+"কী তৈরি করা সম্ভব হয়নি। ত্রুটিটা হলো:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:537
+#, c-format
+msgid ""
+"Could not change key value. Error message:\n"
+"%s"
+msgstr ""
+"কী এর মান পরিবর্তন করা সম্ভব হয়নি। ত্রুটি সম্পর্কিত তথ্য:\n"
+"%s"
+
+# sam: what are 'pairs'?
+#: ../src/gconf-editor-window.c:569
+msgid ""
+"Currently pairs and schemas can't be edited. This will be changed in a later "
+"version."
+msgstr ""
+"বর্তমানে জোড়াসমূহ ও স্কীমাগুলো সম্পাদন করা সম্ভব নয়। এটি পরবর্তী সংস্করণে পরিবর্তন "
+"করা হবে।"
+
+#: ../src/gconf-editor-window.c:673 ../src/gconf-editor-window.c:708
+#, c-format
+msgid ""
+"Could not sync value. Error was:\n"
+"%s"
+msgstr ""
+"মান সিঙ্ক করা সম্ভব হয়নি। ত্রুটিটা হলো:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:714
+msgid "_File"
+msgstr "ফাইল (_ফ)"
+
+#: ../src/gconf-editor-window.c:715
+msgid "_Edit"
+msgstr "সম্পাদন (_ম)"
+
+#: ../src/gconf-editor-window.c:716
+msgid "_Search"
+msgstr "খোঁজা (_খ)"
+
+#: ../src/gconf-editor-window.c:717
+msgid "_Bookmarks"
+msgstr "বুকমার্ক (_ম)"
+
+#: ../src/gconf-editor-window.c:718
+msgid "_Help"
+msgstr "সহায়িকা (_স)"
+
+#: ../src/gconf-editor-window.c:720
+msgid "New _Settings Window"
+msgstr "নতুন বৈশিষ্ট্যাবলী উইন্ডো (_ব)"
+
+#: ../src/gconf-editor-window.c:721
+msgid "Open a new Configuration Editor window editing current settings"
+msgstr ""
+"বর্তমান বৈশিষ্ট্যাবলী সম্পাদন করার জন্য একটি নতুন কনফিগারেশন সম্পাদনার উইন্ডো খোলো"
+
+#: ../src/gconf-editor-window.c:723
+msgid "New _Defaults Window"
+msgstr "নতুন ডিফল্ট উইন্ডো (_ড)"
+
+#: ../src/gconf-editor-window.c:724
+msgid "Open a new Configuration Editor window editing system default settings"
+msgstr ""
+"সিস্টেমের ডিফল্ট বৈশিষ্ট্যাবলী সম্পাদন করার জন্য একটি নতুন কনফিগারেশন সম্পাদনার "
+"উইন্ডো খোলো"
+
+#: ../src/gconf-editor-window.c:726
+msgid "New _Mandatory Window"
+msgstr "নতুন বাধ্যতামূলক উইন্ডো (_ম)"
+
+#: ../src/gconf-editor-window.c:727
+msgid ""
+"Open a new Configuration Editor window editing system mandatory settings"
+msgstr ""
+"সিস্টেমের বাধ্যতামূলক বৈশিষ্ট্যাবলী সম্পাদন করার জন্য একটি নতুন কনফিগারেশন সম্পাদক "
+"উইন্ডো খোলো"
+
+#: ../src/gconf-editor-window.c:729
+msgid "_Close Window"
+msgstr "উইন্ডো বন্ধ করো (_ব)"
+
+#: ../src/gconf-editor-window.c:729
+msgid "Close this window"
+msgstr "এই উইন্ডো বন্ধ করো"
+
+#: ../src/gconf-editor-window.c:731
+msgid "_Quit"
+msgstr "প্রস্থান (_প)"
+
+#: ../src/gconf-editor-window.c:731
+msgid "Quit the Configuration Editor"
+msgstr "কনফিগারেশন সম্পাদক থেকে বেরিয়ে এসো"
+
+#: ../src/gconf-editor-window.c:734
+msgid "_Copy Key Name"
+msgstr "কী এর নাম কপি করো (_ক)"
+
+#: ../src/gconf-editor-window.c:734
+msgid "Copy the name of the selected key"
+msgstr "নির্বাচিত কী টির নাম কপি করো"
+
+#: ../src/gconf-editor-window.c:736
+msgid "_Find..."
+msgstr "খোঁজো... (_খ)"
+
+#: ../src/gconf-editor-window.c:736
+msgid "Find patterns in keys and values"
+msgstr "কী এবং মানসমূহের মধ্যে ধারাবাহিকতা খোঁজো"
+
+#: ../src/gconf-editor-window.c:738
+msgid "_List Recent Keys"
+msgstr "সাম্প্রতিক কী এর তালিকা (_ত)"
+
+#: ../src/gconf-editor-window.c:738
+msgid "Show recently modified keys"
+msgstr "সম্প্রতি‌‌-পরিবর্তিত কীসমূহ দেখাও"
+
+#: ../src/gconf-editor-window.c:741
+msgid "_Add Bookmark"
+msgstr "বুকমার্ক যোগ করো (_ক)"
+
+#: ../src/gconf-editor-window.c:741
+msgid "Add a bookmark to the selected directory"
+msgstr "নির্বাচিত ডিরেক্টরিতে বুকমার্ক যোগ কর"
+
+#: ../src/gconf-editor-window.c:743
+msgid "_Edit Bookmarks"
+msgstr "বুকমার্ক সম্পাদন করো (_এ)"
+
+#: ../src/gconf-editor-window.c:743
+msgid "Edit the bookmarks"
+msgstr "বুকমার্ক সম্পাদন করো"
+
+#: ../src/gconf-editor-window.c:746
+msgid "_Contents"
+msgstr "সূচি (_স)"
+
+#: ../src/gconf-editor-window.c:746
+msgid "Open the help contents for the Configuration Editor"
+msgstr "কনফিগারেশন সম্পাদক সম্পর্কিত সহায়িকার সূচি খোলো"
+
+#: ../src/gconf-editor-window.c:748
+msgid "_About"
+msgstr "পরিচিতি (_প)"
+
+#: ../src/gconf-editor-window.c:748
+msgid "Show the about dialog for the Configuration Editor"
+msgstr "কনফিগারেশন সম্পাদকের পরিচিতি দেখাও"
+
+#: ../src/gconf-editor-window.c:751
+msgid "_New Key..."
+msgstr "নতুন কী... (_ন)"
+
+#: ../src/gconf-editor-window.c:751
+msgid "Create a new key"
+msgstr "নতুন কী তৈরী করো"
+
+#: ../src/gconf-editor-window.c:753
+msgid "_Edit Key..."
+msgstr "কী সম্পাদন... (_স)"
+
+#: ../src/gconf-editor-window.c:753
+msgid "Edit the selected key"
+msgstr "নির্বাচিত কী সম্পাদন করো"
+
+#: ../src/gconf-editor-window.c:755
+msgid "_Unset Key..."
+msgstr "কী আনসেটকরণ... (_আ)"
+
+#: ../src/gconf-editor-window.c:755
+msgid "Unset the selected key"
+msgstr "নির্বাচিত কী আনসেট করো"
+
+#: ../src/gconf-editor-window.c:757
+msgid "Set as _Default"
+msgstr "ডিফল্ট হিসেবে নির্ধারণ করো (_ড)"
+
+#: ../src/gconf-editor-window.c:757
+msgid "Set the selected key to be the default"
+msgstr "নির্বাচিত কী ডিফল্ট হিসেবে নির্ধারণ করো"
+
+#: ../src/gconf-editor-window.c:759
+msgid "Set as _Mandatory"
+msgstr "বাধ্যতামূলক হিসেবে নির্ধারণ করো (_ম)"
+
+#: ../src/gconf-editor-window.c:759
+msgid "Set the selected key to the mandatory"
+msgstr "নির্বাচিত কী বাধ্যতামূলক হিসেবে নির্ধারণ করো"
+
+#: ../src/gconf-editor-window.c:841
+msgid "Configuration Editor (Default Settings)"
+msgstr "কনফিগারেশন সম্পাদক (ডিফল্ট বৈশিষ্ট্যাবলী)"
+
+#: ../src/gconf-editor-window.c:844
+msgid "Configuration Editor (Mandatory Settings)"
+msgstr "কনফিগারেশন সম্পাদক (বাধ্যতামূলক বৈশিষ্ট্যাবলী)"
+
+#: ../src/gconf-editor-window.c:1086 ../src/gconf-editor-window.c:1087
+#: ../src/gconf-editor-window.c:1088 ../src/gconf-editor-window.c:1089
+#: ../src/gconf-editor-window.c:1118 ../src/gconf-editor-window.c:1126
+#: ../src/gconf-editor-window.c:1135 ../src/gconf-editor-window.c:1670
+#: ../src/gconf-editor-window.c:1682 ../src/gconf-editor-window.c:1694
+#: ../src/gconf-editor-window.c:1709
+msgid "(None)"
+msgstr "(কোনটি নয়)"
+
+#: ../src/gconf-editor-window.c:1301 ../src/gconf-editor-window.c:1316
+#, c-format
+msgid ""
+"Cannot create GConf engine. Error was:\n"
+"%s"
+msgstr ""
+"GConf ইন্জিন তৈরি করা সম্ভব হয়নি। ত্রুটিটা হলো:\n"
+"%s"
+
+#: ../src/gconf-editor-window.c:1345
+msgid "Configuration Editor (Defaults settings)"
+msgstr "কনফিগারেশন সম্পাদক (ডিফল্ট বৈশিষ্ট্যাবলী)"
+
+#: ../src/gconf-editor-window.c:1348
+msgid "Configuration Editor (Mandatory settings)"
+msgstr "কনফিগারেশন সম্পাদক (বাধ্যতামূলক বৈশিষ্ট্যাবলী)"
+
+#: ../src/gconf-editor-window.c:1413
+msgid "Type"
+msgstr "ধরন"
+
+#: ../src/gconf-editor-window.c:1414
+msgid "The Configuration Editor window type."
+msgstr "কনফিগারেশন সম্পাদক উইন্ডোর ধরণ।"
+
+#: ../src/gconf-editor-window.c:1567
+msgid "Name"
+msgstr "নাম"
+
+#: ../src/gconf-editor-window.c:1590
+msgid "Value"
+msgstr "মান"
+
+#: ../src/gconf-editor-window.c:1617
+msgid "Key Documentation"
+msgstr "কী সম্পর্কীয় ডকুমেন্টেশন"
+
+#: ../src/gconf-editor-window.c:1646 ../src/gconf-key-editor.c:616
+msgid "This key is not writable"
+msgstr "এই কী এর মান লেখার অনুমতি নেই "
+
+#: ../src/gconf-editor-window.c:1659
+msgid "This key has no schema"
+msgstr "এই কী এর কোন স্কীমা নেই"
+
+#: ../src/gconf-editor-window.c:1664
+msgid "Key name:"
+msgstr "কী এর নাম:"
+
+#: ../src/gconf-editor-window.c:1677
+msgid "Key owner:"
+msgstr "কী এর মালিক:"
+
+#: ../src/gconf-editor-window.c:1689
+msgid "Short description:"
+msgstr "সংক্ষিপ্ত বর্ণনা:"
+
+#: ../src/gconf-editor-window.c:1702
+msgid "Long description:"
+msgstr "বিস্তারিত বর্ণনা:"
+
+#: ../src/gconf-key-editor.c:105
+msgid "T_rue"
+msgstr "সত্য (_স)"
+
+#: ../src/gconf-key-editor.c:108 ../src/gconf-key-editor.c:256
+#: ../src/gconf-key-editor.c:361 ../src/gconf-key-editor.c:647
+msgid "_False"
+msgstr "মিথ্যা (_ম)"
+
+#. These have to be ordered so the EDIT_ enum matches the
+#. * menu indices
+#.
+#. These have to be ordered so the EDIT_ enum matches the
+#. * combobox indices
+#.
+#: ../src/gconf-key-editor.c:143 ../src/gconf-key-editor.c:170
+msgid "Integer"
+msgstr "পূর্ণ সংখ্যা"
+
+#: ../src/gconf-key-editor.c:144 ../src/gconf-key-editor.c:171
+msgid "Boolean"
+msgstr "বুলিয়ান"
+
+#: ../src/gconf-key-editor.c:145 ../src/gconf-key-editor.c:172
+msgid "String"
+msgstr "বাক্য"
+
+#: ../src/gconf-key-editor.c:146
+msgid "Float"
+msgstr "দশমিক"
+
+#: ../src/gconf-key-editor.c:147
+msgid "List"
+msgstr "লিস্ট"
+
+#: ../src/gconf-key-editor.c:231
+msgid "Add New List Entry"
+msgstr "নতুন লিস্ট এন্ট্রি যোগ করো"
+
+#: ../src/gconf-key-editor.c:247
+msgid "_New list value:"
+msgstr "নতুন লিস্টের মান: (_ন)"
+
+#: ../src/gconf-key-editor.c:333
+msgid "Edit List Entry"
+msgstr "লিস্ট এন্ট্রি সম্পাদন করো"
+
+#: ../src/gconf-key-editor.c:349
+msgid "_Edit list value:"
+msgstr "লিস্টের মান সম্পাদন করো: (_ল)"
+
+#: ../src/gconf-key-editor.c:570
+msgid "Path:"
+msgstr "পাথ:"
+
+#: ../src/gconf-key-editor.c:581
+msgid "_Name:"
+msgstr "নাম: (_ন)"
+
+#: ../src/gconf-key-editor.c:593
+msgid "_Type:"
+msgstr "ধরন: (_ধ)"
+
+#: ../src/gconf-key-editor.c:628 ../src/gconf-key-editor.c:646
+#: ../src/gconf-key-editor.c:665 ../src/gconf-key-editor.c:682
+msgid "_Value:"
+msgstr "মান: (_ম)"
+
+#: ../src/gconf-key-editor.c:705
+msgid "List _type:"
+msgstr "লিস্টের ধরন: (_ধ)"
+
+#: ../src/gconf-key-editor.c:713
+msgid "_Values:"
+msgstr "মানসমূহ: (_ম)"
+
+#: ../src/gconf-key-editor.c:815
+msgid "New Key"
+msgstr "নতুন কী"
+
+#: ../src/gconf-key-editor.c:819
+msgid "Edit Key"
+msgstr "কী সম্পাদন করো"
+
+# ধরণ is more apropriate than নকশা in this scenario - mak
+#: ../src/gconf-search-dialog.c:59
+msgid "Pattern not found"
+msgstr "ধরণ পাওয়া যায়নি"
+
+#: ../src/gconf-search-dialog.c:141
+msgid "Find"
+msgstr "খোঁজো"
+
+#: ../src/gconf-search-dialog.c:143
+msgid "_Search for: "
+msgstr "খোঁজা হচ্ছে: (_খ)"
+
+#: ../src/gconf-search-dialog.c:164
+msgid "Search also in key _names"
+msgstr "কী নামেও খোঁজ করো (_ন)"
+
+#: ../src/gconf-search-dialog.c:167
+msgid "Search also in key _values"
+msgstr "কী এর মানেও খোঁজ করো (_ম)"
+
+#: ../src/gedit-output-window.c:350
+msgid "Close the output window"
+msgstr "আউটপুট উইন্ডো বন্ধ করো"
+
+#: ../src/gedit-output-window.c:388
+msgid "Copy selected lines"
+msgstr "নির্বাচিত লাইন কপি করো"
+
+#: ../src/gedit-output-window.c:408
+msgid "Clear the output window"
+msgstr "আউটপুট উইন্ডোর সব তথ্য মুছে ফেলো"
+
+#: ../src/gedit-output-window.c:448
+msgid "Output Lines"
+msgstr "আউটপুট লাইন"
+
+#: ../src/main.c:40
+#, c-format
+msgid "Invalid key \"%s\": %s"
+msgstr "অবৈধ কী \"%s\": %s"
+
+#~ msgid "GConf-Editor"
+#~ msgstr "জিকনফ-এডিটর"
+
+#, fuzzy
+#~ msgid "Quit the gconf editor"
+#~ msgstr "জিকনফ-এডিটর"
+
+#~ msgid "GConf editor"
+#~ msgstr "জিকনফ-এডিটর"
+
+#~ msgid "GConf editor - %s"
+#~ msgstr "জিকনফ-এডিটর -%s"
+
+#~ msgid "Key Name:"
+#~ msgstr "কী নাম"
+
+#~ msgid "Key path:"
+#~ msgstr "কী পাথ"
+
+#~ msgid "Key _value:"
+#~ msgstr "কী_মান"
+
+#~ msgid "About GConf-Editor"
+#~ msgstr "জিকনফ-এডিটর সম্বন্ধে"
+
+#~ msgid "/File/_New window"
+#~ msgstr "/ফাইল/_নতুন উইন্ডো"
+
+#~ msgid "/Bookmarks/_Add bookmark"
+#~ msgstr "/বুকমার্কস/_বুকমার্কস যোগ কর"
+
+#~ msgid "/Bookmarks/_Edit bookmarks..."
+#~ msgstr "/বুকমার্কস/_বুকমার্কস সম্পাদনা..."
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/সহায়ক তথ্য/_সম্বন্ধে..."
+
+#~ msgid "/File/New window"
+#~ msgstr "/ফাইল/নতুন উইন্ডো"
+
+#~ msgid "/File/Quit"
+#~ msgstr "/ফাইল/বন্ধ করা"
+
+#~ msgid "/Edit/Copy key name"
+#~ msgstr "/সম্পাদনা/কী নাম কপি কর"
+
+#~ msgid "/Help/About..."
+#~ msgstr "/সহায়ক তথ্য/সম্বন্ধে"
+
+#~ msgid ""
+#~ "Could not get schema location. Error was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "স্কীমার স্থান বের করতে পারেনি। ত্রুটিটা হলো:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Could not get schema. Error was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "স্কীমা পওয়া যায়নি। ত্রুটিটা হলো:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Could not set schema. Error was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "স্কীমা সেট করতে পারেনি। ত্রুটিটা হলো:\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not associate schema. Error was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "কী আনসেট করতে পারেনি।ত্রুটিটা হলো:\n"
+#~ "%s"
+
+#~ msgid "/New key..."
+#~ msgstr "/নতুন কী..."
+
+#~ msgid "/Unset key"
+#~ msgstr "/আনসেট কী"
+
+#~ msgid "_Show this dialog again"
+#~ msgstr "_এই ডায়ালগটি আবার দেখাও"
+
+#~ msgid ""
+#~ "This tool allows you to directly edit your configuration database. This "
+#~ "is not the recommended way of setting desktop preferences. Use this tool "
+#~ "at your own risk."
+#~ msgstr ""
+#~ "এই টুল তোমাকে সরাসরি তোমার কনফিগারেশন ডাটাবেইসকে সম্পাদনা করতে দিবেডেস্কটপের "
+#~ "বৈশিষ্টাবলীর মান নির্ধারণের জন্য এটা কোন গ্রহণযোগ্য উপায় নয়গ্ড়এই টুল ব্যবহার করতে "
+#~ "হবে সম্পূর্ণ তোমার নিজের দায়িত্বে"
+
+#~ msgid "Copyright (C) Anders Carlsson 2001, 2002"
+#~ msgstr "কপিরাইট(c) অ্যান্ডার্স কার্লসন ২০০১,২০০২"

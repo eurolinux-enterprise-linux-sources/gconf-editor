@@ -1,0 +1,572 @@
+# Indonesia translation of gconf-editor.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gconf-editor gnome-2-2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-07 21:19+0700\n"
+"PO-Revision-Date: 2005-04-07 21:27+0700\n"
+"Last-Translator: Mohammad DAMT <mdamt@bisnisweb.com>\n"
+"Language-Team: Indonesia <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/gconf-editor.desktop.in.in.h:1 src/gconf-editor-window.c:844
+#: src/gconf-editor-window.c:1313
+msgid "Configuration Editor"
+msgstr "Editor Konfigurasi"
+
+#: data/gconf-editor.desktop.in.in.h:2
+msgid "Directly edit your entire configuration database"
+msgstr "Edit langsung semua database konfigurasi"
+
+#: data/gconf-editor.schemas.in.h:1
+msgid "Bookmarks"
+msgstr "Bookmark"
+
+#: data/gconf-editor.schemas.in.h:2
+msgid "gconf-editor folder bookmarks"
+msgstr "Folder bookmark gconf-editor"
+
+#: src/gconf-bookmarks-dialog.c:207
+msgid "Edit Bookmarks"
+msgstr "Sunting Bookmark"
+
+#: src/gconf-editor-window.c:361
+#, c-format
+msgid "Couldn't display help: %s"
+msgstr "Tidak dapat menampilkan bantuan: %s"
+
+#: src/gconf-editor-window.c:395
+msgid "translator_credits"
+msgstr "Ahmad Riza H Nst  <rizahnst@eriagempita.co.id>"
+
+#: src/gconf-editor-window.c:400
+msgid "An editor for the GConf configuration system."
+msgstr "Editor sistem konfigurasi GConf"
+
+#: src/gconf-editor-window.c:427
+#, c-format
+msgid ""
+"Couldn't unset key. Error was:\n"
+"%s"
+msgstr ""
+"Tidak berhasil melakukan unset pada key. Pesan errornya:\n"
+"%s"
+
+#: src/gconf-editor-window.c:452
+#, c-format
+msgid ""
+"Could not create key. The error is:\n"
+"%s"
+msgstr ""
+"Tidak dapat membuat key baru. Pesan error:\n"
+"%s"
+
+#: src/gconf-editor-window.c:534
+#, c-format
+msgid ""
+"Could not change key value. Error message:\n"
+"%s"
+msgstr ""
+"Tidak dapat merubah isi nilai pada key. Pesan error:\n"
+"%s"
+
+#: src/gconf-editor-window.c:566
+msgid ""
+"Currently pairs and schemas can't be edited. This will be changed in a later "
+"version."
+msgstr ""
+"Saat ini, pasangan dan susunan tidak bisa disunting. Hal ini akan berubah "
+"pada versi berikutnya."
+
+#: src/gconf-editor-window.c:670 src/gconf-editor-window.c:705
+#, c-format
+msgid ""
+"Could not sync value. Error was:\n"
+"%s"
+msgstr ""
+"Tidak berhasil melakukan sinkronisasi nilai. Pesan errornya:\n"
+"%s"
+
+#: src/gconf-editor-window.c:711
+msgid "_File"
+msgstr "_File"
+
+#: src/gconf-editor-window.c:712
+msgid "_Edit"
+msgstr "_Edit"
+
+#: src/gconf-editor-window.c:713
+msgid "_Search"
+msgstr "_Cari"
+
+#: src/gconf-editor-window.c:714
+msgid "_Bookmarks"
+msgstr "_Bookmark"
+
+#: src/gconf-editor-window.c:715
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: src/gconf-editor-window.c:717
+msgid "New _Settings Window"
+msgstr "Jendela _Setting Baru"
+
+#: src/gconf-editor-window.c:718
+msgid "Open a new Configuration Editor window editing current settings"
+msgstr ""
+"Buka sebuah jendela Konfigurasi Editor baru yang menyunting setingan saat ini"
+
+#: src/gconf-editor-window.c:720
+msgid "New _Defaults Window"
+msgstr "Jendela _Default Baru"
+
+#: src/gconf-editor-window.c:721
+msgid "Open a new Configuration Editor window editing system default settings"
+msgstr ""
+"Buka sebuah jendela Konfigurasi Editor yang menyunting setingan default "
+"sistem"
+
+#: src/gconf-editor-window.c:723
+msgid "New _Mandatory Window"
+msgstr "Jendela _Wajib Baru"
+
+#: src/gconf-editor-window.c:724
+msgid ""
+"Open a new Configuration Editor window editing system mandatory settings"
+msgstr ""
+"Buka jendela Konfigurasi Editor baru yang sedang menyunting setingan wajib "
+"sistem"
+
+#: src/gconf-editor-window.c:726
+msgid "_Close Window"
+msgstr "_Tutup Jendela"
+
+#: src/gconf-editor-window.c:726
+msgid "Close this window"
+msgstr "Tutup Jendela ini"
+
+#: src/gconf-editor-window.c:728
+msgid "_Quit"
+msgstr "_Keluar"
+
+#: src/gconf-editor-window.c:728
+msgid "Quit the Configuration Editor"
+msgstr "Keluar Editor Konfigurasi"
+
+#: src/gconf-editor-window.c:731
+msgid "_Copy Key Name"
+msgstr "_Salin Nama Kunci"
+
+#: src/gconf-editor-window.c:731
+msgid "Copy the name of the selected key"
+msgstr "Salin nama dari kunci terpilih"
+
+#: src/gconf-editor-window.c:733
+msgid "_Find..."
+msgstr "_Temukan..."
+
+#: src/gconf-editor-window.c:733
+msgid "Find patterns in keys and values"
+msgstr "Temukan bentuk dalam kunci dan nilai"
+
+#: src/gconf-editor-window.c:735
+msgid "_List Recent Keys"
+msgstr "_Daftar Kunci Saat ini"
+
+#: src/gconf-editor-window.c:735
+msgid "Show recently modified keys"
+msgstr "Tampilkan kunci yang diubah saat ini"
+
+#: src/gconf-editor-window.c:738
+msgid "_Add Bookmark"
+msgstr "_Tambah Bookmark"
+
+#: src/gconf-editor-window.c:738
+msgid "Add a bookmark to the selected directory"
+msgstr "Tambahkan sebuah bookmar ke direktori terpilih"
+
+#: src/gconf-editor-window.c:740
+msgid "_Edit Bookmarks"
+msgstr "_Edit Bookmark"
+
+#: src/gconf-editor-window.c:740
+msgid "Edit the bookmarks"
+msgstr "Sunting Bookmark"
+
+#: src/gconf-editor-window.c:743
+msgid "_Contents"
+msgstr "_Isi"
+
+#: src/gconf-editor-window.c:743
+msgid "Open the help contents for the Configuration Editor"
+msgstr "Buka isi bantuan untuk Editor Konfigurasi"
+
+#: src/gconf-editor-window.c:745
+msgid "_About"
+msgstr "_Tentang"
+
+#: src/gconf-editor-window.c:745
+msgid "Show the about dialog for the Configuration Editor"
+msgstr "Tampilkan dialog tentang untuk Editor Konfigurasi"
+
+#: src/gconf-editor-window.c:748
+msgid "_New Key..."
+msgstr "Kunci _Baru..."
+
+#: src/gconf-editor-window.c:748
+msgid "Create a new key"
+msgstr "Buat kunci baru"
+
+#: src/gconf-editor-window.c:750
+msgid "_Edit Key..."
+msgstr "_Edit Kunci..."
+
+#: src/gconf-editor-window.c:750
+msgid "Edit the selected key"
+msgstr "Buka kunci terpilih"
+
+#: src/gconf-editor-window.c:752
+msgid "_Unset Key..."
+msgstr "_Jangan tetapkan Kunci..."
+
+#: src/gconf-editor-window.c:752
+msgid "Unset the selected key"
+msgstr "Jangan tetapkan kunci terpilih"
+
+#: src/gconf-editor-window.c:754
+msgid "Set as _Default"
+msgstr "Tetapkan sebagai _Default"
+
+#: src/gconf-editor-window.c:754
+msgid "Set the selected key to be the default"
+msgstr "Tetapkan kunci terpilih menjadi default"
+
+#: src/gconf-editor-window.c:756
+msgid "Set as _Mandatory"
+msgstr "Tentukan sebagai nilai _awal"
+
+#: src/gconf-editor-window.c:756
+msgid "Set the selected key to the mandatory"
+msgstr "Tetapkan kunci terpilih ke nilai awal"
+
+#: src/gconf-editor-window.c:838
+msgid "Configuration Editor (Default Settings)"
+msgstr "Editor Konfigurasi (Setingan Default)"
+
+#: src/gconf-editor-window.c:841
+msgid "Configuration Editor (Mandatory Settings)"
+msgstr "Editor Konfigurasi (Setingan Nilai Awal)"
+
+#: src/gconf-editor-window.c:1048 src/gconf-editor-window.c:1049
+#: src/gconf-editor-window.c:1050 src/gconf-editor-window.c:1051
+#: src/gconf-editor-window.c:1080 src/gconf-editor-window.c:1088
+#: src/gconf-editor-window.c:1097 src/gconf-editor-window.c:1632
+#: src/gconf-editor-window.c:1644 src/gconf-editor-window.c:1656
+#: src/gconf-editor-window.c:1671
+msgid "(None)"
+msgstr "(Tidak ada)"
+
+#: src/gconf-editor-window.c:1263 src/gconf-editor-window.c:1278
+#, c-format
+msgid ""
+"Cannot create GConf engine. Error was:\n"
+"%s"
+msgstr ""
+"Tidak dapat membuat mesin GConf. Pesan error:\n"
+"%s"
+
+#: src/gconf-editor-window.c:1307
+msgid "Configuration Editor (Defaults settings)"
+msgstr "Editor Konfigurasi (Setingan Default)"
+
+#: src/gconf-editor-window.c:1310
+msgid "Configuration Editor (Mandatory settings)"
+msgstr "Editor Konfigurasi (Setingan nilai awal)"
+
+#: src/gconf-editor-window.c:1375
+msgid "Type"
+msgstr "Jenis"
+
+#: src/gconf-editor-window.c:1376
+msgid "The Configuration Editor window type."
+msgstr "Jenis jendela Editor Konfigurasi."
+
+#: src/gconf-editor-window.c:1529
+msgid "Name"
+msgstr "Nama"
+
+#: src/gconf-editor-window.c:1552
+msgid "Value"
+msgstr "Nilai"
+
+#: src/gconf-editor-window.c:1579
+msgid "Key Documentation"
+msgstr "Keterangan tentang Key"
+
+#: src/gconf-editor-window.c:1608 src/gconf-key-editor.c:627
+msgid "This key is not writable"
+msgstr "Kunci ini tidak dapat ditulis"
+
+#: src/gconf-editor-window.c:1621
+msgid "This key has no schema"
+msgstr "Kunci ini tidak memiliki susunan"
+
+#: src/gconf-editor-window.c:1626
+msgid "Key name:"
+msgstr "_Nama Kunci:"
+
+#: src/gconf-editor-window.c:1639
+msgid "Key owner:"
+msgstr "Pemilik Kunci:"
+
+#: src/gconf-editor-window.c:1651
+msgid "Short description:"
+msgstr "Keterangan singkat:"
+
+#: src/gconf-editor-window.c:1664
+msgid "Long description:"
+msgstr "Keterangan Lengkap:"
+
+#: src/gconf-key-editor.c:106
+msgid "T_rue"
+msgstr "T_rue"
+
+#: src/gconf-key-editor.c:109 src/gconf-key-editor.c:267
+#: src/gconf-key-editor.c:372 src/gconf-key-editor.c:658
+msgid "_False"
+msgstr "_False"
+
+#: src/gconf-key-editor.c:145 src/gconf-key-editor.c:177
+msgid "Integer"
+msgstr "Bilangan bulat"
+
+#: src/gconf-key-editor.c:147 src/gconf-key-editor.c:179
+msgid "Boolean"
+msgstr "Boolean"
+
+#: src/gconf-key-editor.c:149 src/gconf-key-editor.c:181
+msgid "String"
+msgstr "Kalimat"
+
+#: src/gconf-key-editor.c:151
+msgid "Float"
+msgstr "Bilangan Pecahan"
+
+#: src/gconf-key-editor.c:153
+msgid "List"
+msgstr "Daftar"
+
+#: src/gconf-key-editor.c:242
+msgid "Add New List Entry"
+msgstr "Tambah Entri Daftar Baru"
+
+#: src/gconf-key-editor.c:258
+msgid "_New list value:"
+msgstr "Daftar nilai _baru:"
+
+#: src/gconf-key-editor.c:344
+msgid "Edit List Entry"
+msgstr "Sunting entri daftar"
+
+#: src/gconf-key-editor.c:360
+msgid "_Edit list value:"
+msgstr "_Sunting daftar nilai:"
+
+#: src/gconf-key-editor.c:581
+msgid "Path:"
+msgstr "Lokasi:"
+
+#: src/gconf-key-editor.c:592
+msgid "_Name:"
+msgstr "_Nama:"
+
+#: src/gconf-key-editor.c:604
+msgid "_Type:"
+msgstr "_tipe:"
+
+#: src/gconf-key-editor.c:639 src/gconf-key-editor.c:657
+#: src/gconf-key-editor.c:676 src/gconf-key-editor.c:693
+msgid "_Value:"
+msgstr "_Nilai:"
+
+#: src/gconf-key-editor.c:716
+msgid "List _type:"
+msgstr "_Tipe Daftar:"
+
+#: src/gconf-key-editor.c:724
+msgid "_Values:"
+msgstr "_Nilai:"
+
+#: src/gconf-key-editor.c:826
+msgid "New Key"
+msgstr "Kunci Baru"
+
+#: src/gconf-key-editor.c:830
+msgid "Edit Key"
+msgstr "Sunting Kunci"
+
+#: src/gconf-search-dialog.c:59
+msgid "Pattern not found"
+msgstr "Bentuk tidak ditemukan"
+
+#: src/gconf-search-dialog.c:141
+msgid "Find"
+msgstr "Temukan"
+
+#: src/gconf-search-dialog.c:143
+msgid "_Search for: "
+msgstr "_Mencari: "
+
+#: src/gconf-search-dialog.c:164
+msgid "Search also in key _names"
+msgstr "Cari juga dalam _nama kunci"
+
+#: src/gconf-search-dialog.c:167
+msgid "Search also in key _values"
+msgstr "Cari juga dalam _nilai kunci"
+
+#: src/gedit-output-window.c:350
+msgid "Close the output window"
+msgstr "Tutup jendela keluaran"
+
+#: src/gedit-output-window.c:388
+msgid "Copy selected lines"
+msgstr "Saling baris terpilih"
+
+#: src/gedit-output-window.c:408
+msgid "Clear the output window"
+msgstr "Bersihkan jendela keluaran"
+
+#: src/gedit-output-window.c:448
+msgid "Output Lines"
+msgstr "Baris Keluaran"
+
+#: src/main.c:40
+#, c-format
+msgid "Invalid key \"%s\": %s"
+msgstr "Key \"%s\" salah: %s"
+
+#~ msgid "GConf-Editor"
+#~ msgstr "GConf-Editor"
+
+#, fuzzy
+#~ msgid "Quit the gconf editor"
+#~ msgstr "editor GConf"
+
+#~ msgid "GConf editor"
+#~ msgstr "editor GConf"
+
+#~ msgid "GConf editor - %s"
+#~ msgstr "editor GConf - %s"
+
+#~ msgid "Key Name:"
+#~ msgstr "Nama Key:"
+
+#~ msgid "Key path:"
+#~ msgstr "path key:"
+
+#~ msgid "Key _value:"
+#~ msgstr "Nilai _Key:"
+
+#~ msgid "About GConf-Editor"
+#~ msgstr "Tentang GConf-Editor"
+
+#~ msgid "/File/tearoff1"
+#~ msgstr "/File/tearoff1"
+
+#~ msgid "/File/_New window"
+#~ msgstr "/File/Window _Baru"
+
+#~ msgid "/File/sep1"
+#~ msgstr "/File/sep1"
+
+#~ msgid "/Edit/tearoff2"
+#~ msgstr "/Edit/tearoff2"
+
+#~ msgid "/Bookmarks/tearoff3"
+#~ msgstr "/Bookmark/tearoff3"
+
+#~ msgid "/Bookmarks/_Add bookmark"
+#~ msgstr "/Bookmark/_Buat bookmark baru"
+
+#~ msgid "/Bookmarks/_Edit bookmarks..."
+#~ msgstr "/Bookmark/_Edit bookmark..."
+
+#~ msgid "/Help/tearoff4"
+#~ msgstr "/Bantuan/tearoff4"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Bantuan/_Tentang GConf-Editor..."
+
+#~ msgid "/File/New window"
+#~ msgstr "/File/Window Baru"
+
+#~ msgid "/File/Quit"
+#~ msgstr "/File/Keluar"
+
+#~ msgid "/Edit/Copy key name"
+#~ msgstr "/Edit/Salin nama key"
+
+#~ msgid "/Help/About..."
+#~ msgstr "/Bantuan/Tentang GConf-Editor..."
+
+#~ msgid ""
+#~ "Could not get schema location. Error was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Tidak dapat memperoleh lokasi skema. Pesan errornya:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Could not get schema. Error was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Tidak berhasil mendapatka skema. Pesan errornya:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Could not set schema. Error was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Tidak berhasil melakukan set pada skema. Pesan errornya:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Could not associate schema. Error was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Tidak berhasil melakukan pemasangan skema. Pesan errornya:\n"
+#~ "%s"
+
+#~ msgid "/sep1"
+#~ msgstr "/sep1"
+
+#~ msgid "/sep2"
+#~ msgstr "/sep2"
+
+#~ msgid "/New key..."
+#~ msgstr "/Key Baru..."
+
+#~ msgid "/Unset key"
+#~ msgstr "/Unset key"
+
+#~ msgid "_Show this dialog again"
+#~ msgstr "_Tampilkan dialog ini lagi"
+
+#~ msgid ""
+#~ "This tool allows you to directly edit your configuration database. This "
+#~ "is not the recommended way of setting desktop preferences. Use this tool "
+#~ "at your own risk."
+#~ msgstr ""
+#~ "Program ini dibuat untuk mengedit database konfigurasi sistem. Program "
+#~ "ini sebaiknya tidak digunakan untuk mengedit setingan desktop. Resiko "
+#~ "silakan tanggung sendiri."
+
+#~ msgid "Copyright (C) Anders Carlsson 2001, 2002"
+#~ msgstr "Hak cipta (C) Anders Carlsson 2001, 2002"

@@ -1,0 +1,1960 @@
+diff -urN a/po/bn_IN.po b/po/bn_IN.po
+--- a/po/bn_IN.po	2010-05-06 17:03:14.478029595 +0530
++++ b/po/bn_IN.po	2010-05-06 17:03:36.503082547 +0530
+@@ -1,21 +1,21 @@
+ # translation of bn_IN.po to Bengali INDIA
+ # Bengali India translation of GConf-Editor
+-# Copyright (C) 2003, 2006, 2007, 2009 Free Software Foundation, Inc.
++# Copyright (C) 2003, 2006, 2007, 2009, 2010 Free Software Foundation, Inc.
+ # This file is distributed under the same license as the GConf-Editor package.
+ #
+ # Muhammad Mahmudur Rahman Khana <mrk_ju@yahoo.com>, YEAR.
+ # Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+ # Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+ # Runa Bhattacharjee <runabh@gmail.com>, 2006, 2007.
+-# Runa Bhattacharjee <runab@redhat.com>, 2009.
++# Runa Bhattacharjee <runab@redhat.com>, 2009, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: bn_IN\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2008-11-07 11:22+0100\n"
+-"PO-Revision-Date: 2009-03-09 21:45+0530\n"
++"POT-Creation-Date: 2010-03-29 12:56+0530\n"
++"PO-Revision-Date: 2010-04-14 15:13+0530\n"
+ "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+-"Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
++"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+@@ -23,9 +23,9 @@
+ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "\n"
+ 
+-#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:392
+-#: ../src/gconf-editor-window.c:394 ../src/gconf-editor-window.c:879
+-#: ../src/gconf-editor-window.c:1376
++#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:393
++#: ../src/gconf-editor-window.c:395 ../src/gconf-editor-window.c:872
++#: ../src/gconf-editor-window.c:1368
+ msgid "Configuration Editor"
+ msgstr "কনফিগারেশন সম্পাদন ব্যবস্থা"
+ 
+@@ -42,7 +42,7 @@
+ msgid "gconf-editor folder bookmarks"
+ msgstr "gconf-editor ফোল্ডারের বুকমার্ক"
+ 
+-#: ../src/gconf-bookmarks-dialog.c:197
++#: ../src/gconf-bookmarks-dialog.c:202
+ msgid "Edit Bookmarks"
+ msgstr "বুকমার্ক সম্পাদনা করুন"
+ 
+@@ -50,22 +50,22 @@
+ msgid "<no value>"
+ msgstr "<no value>"
+ 
+-#: ../src/gconf-editor-window.c:358
++#: ../src/gconf-editor-window.c:359
+ #, c-format
+ msgid "Couldn't display help: %s"
+ msgstr "সহায়িকা প্রদর্শন করতে ব্যর্থ: %s"
+ 
+-#: ../src/gconf-editor-window.c:398
++#: ../src/gconf-editor-window.c:399
+ msgid "An editor for the GConf configuration system."
+ msgstr "GConf কনফিগারেশন সিস্টেমের জন্য একটি সম্পাদক।"
+ 
+-#: ../src/gconf-editor-window.c:401
++#: ../src/gconf-editor-window.c:402
+ msgid "translator-credits"
+ msgstr ""
+ "অঙ্কুর প্রকল্পের পক্ষে মাহে আলম খান (makl10n@yahoo.com) \n"
+ "রুণা ভট্টাচার্য্য (runabh@gmail.com)"
+ 
+-#: ../src/gconf-editor-window.c:428
++#: ../src/gconf-editor-window.c:429
+ #, c-format
+ msgid ""
+ "Couldn't unset key. Error was:\n"
+@@ -74,7 +74,7 @@
+ "কি-র মান বাতিল করতে ব্যর্থ। উৎপন্ন ত্রুটি:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:453
++#: ../src/gconf-editor-window.c:454
+ #, c-format
+ msgid ""
+ "Could not create key. The error is:\n"
+@@ -83,7 +83,7 @@
+ "কি তৈরি করা সম্ভব হয়নি। উৎপন্ন সমস্যা:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:535
++#: ../src/gconf-editor-window.c:536
+ #, c-format
+ msgid ""
+ "Could not change key value. Error message:\n"
+@@ -93,7 +93,7 @@
+ "%s"
+ 
+ # sam: what are 'pairs'?
+-#: ../src/gconf-editor-window.c:567
++#: ../src/gconf-editor-window.c:568
+ msgid ""
+ "Currently pairs and schemas can't be edited. This will be changed in a later "
+ "version."
+@@ -101,7 +101,7 @@
+ "বর্তমানে জুটি ও স্কিমাগুলি সম্পাদন করা সম্ভব নয়। এটি পরবর্তী একটি সংস্করণে পরিবর্তন "
+ "করা হবে।"
+ 
+-#: ../src/gconf-editor-window.c:646
++#: ../src/gconf-editor-window.c:647
+ #, c-format
+ msgid ""
+ "Could not set value. Error was:\n"
+@@ -110,7 +110,7 @@
+ "মান নির্ধারণ করা সম্ভব হয়নি। উৎপন্ন সমস্যা:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:684 ../src/gconf-editor-window.c:732
++#: ../src/gconf-editor-window.c:683 ../src/gconf-editor-window.c:727
+ #, c-format
+ msgid ""
+ "Could not sync value. Error was:\n"
+@@ -119,180 +119,184 @@
+ "মান sync (সুসংগত) করা সম্ভব হয়নি। উৎপন্ন সমস্যা:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:746
++#: ../src/gconf-editor-window.c:739
+ msgid "_File"
+ msgstr "ফাইল (_F)"
+ 
+-#: ../src/gconf-editor-window.c:747
++#: ../src/gconf-editor-window.c:740
+ msgid "_Edit"
+ msgstr "সম্পাদনা (_E)"
+ 
+-#: ../src/gconf-editor-window.c:748
++#: ../src/gconf-editor-window.c:741
+ msgid "_Search"
+ msgstr "অনুসন্ধান (_S)"
+ 
+-#: ../src/gconf-editor-window.c:749
++#: ../src/gconf-editor-window.c:742
+ msgid "_Bookmarks"
+ msgstr "বুকমার্ক (_B)"
+ 
+-#: ../src/gconf-editor-window.c:750
++#: ../src/gconf-editor-window.c:743
+ msgid "_Help"
+ msgstr "সাহায্য (_H)"
+ 
+-#: ../src/gconf-editor-window.c:752
++#: ../src/gconf-editor-window.c:745
+ msgid "New _Settings Window"
+ msgstr "নতুন বৈশিষ্ট্যের উইন্ডো (_S)"
+ 
+-#: ../src/gconf-editor-window.c:753
++#: ../src/gconf-editor-window.c:746
+ msgid "Open a new Configuration Editor window editing current settings"
+ msgstr "বর্তমান বৈশিষ্ট্যগুলি পরিবর্তনের জন্য একটি নতুন কনফিগারেশন সম্পাদনার উইন্ডোর খুলুন"
+ 
+-#: ../src/gconf-editor-window.c:755
++#: ../src/gconf-editor-window.c:748
+ msgid "New _Defaults Window"
+ msgstr "নতুন ডিফল্ট উইন্ডো (_D)"
+ 
+-#: ../src/gconf-editor-window.c:756
++#: ../src/gconf-editor-window.c:749
+ msgid "Open a new Configuration Editor window editing system default settings"
+-msgstr "সিস্টেমের ডিফল্ট বৈশিষ্ট্যগুলি পরিবর্তনের জন্য একটি নতুন কনফিগারেশন সম্পাদনার উইন্ডোর খুলুন"
++msgstr ""
++"সিস্টেমের ডিফল্ট বৈশিষ্ট্যগুলি পরিবর্তনের জন্য একটি নতুন কনফিগারেশন সম্পাদনার উইন্ডোর "
++"খুলুন"
+ 
+-#: ../src/gconf-editor-window.c:758
++#: ../src/gconf-editor-window.c:751
+ msgid "New _Mandatory Window"
+ msgstr "নতুন বাধ্যতামূলক উইন্ডো (_M)"
+ 
+-#: ../src/gconf-editor-window.c:759
++#: ../src/gconf-editor-window.c:752
+ msgid "Open a new Configuration Editor window editing system mandatory settings"
+-msgstr "সিস্টেমের বাধ্যতামূলক বৈশিষ্ট্যগুলি পরিবর্তনের জন্য একটি নতুন কনফিগারেশন সম্পাদনার উইন্ডোর খুলুন"
++msgstr ""
++"সিস্টেমের বাধ্যতামূলক বৈশিষ্ট্যগুলি পরিবর্তনের জন্য একটি নতুন কনফিগারেশন সম্পাদনার "
++"উইন্ডোর খুলুন"
+ 
+-#: ../src/gconf-editor-window.c:761
++#: ../src/gconf-editor-window.c:754
+ msgid "_Close Window"
+ msgstr "উইন্ডো বন্ধ করুন (_C)"
+ 
+-#: ../src/gconf-editor-window.c:761
++#: ../src/gconf-editor-window.c:754
+ msgid "Close this window"
+ msgstr "এই উইন্ডোটি বন্ধ করুন"
+ 
+-#: ../src/gconf-editor-window.c:763
++#: ../src/gconf-editor-window.c:756
+ msgid "_Quit"
+ msgstr "প্রস্থান (_Q)"
+ 
+-#: ../src/gconf-editor-window.c:763
++#: ../src/gconf-editor-window.c:756
+ msgid "Quit the Configuration Editor"
+ msgstr "কনফিগারেশন সম্পাদনা ব্যবস্থা থেকে প্রস্থান করুন"
+ 
+-#: ../src/gconf-editor-window.c:766
++#: ../src/gconf-editor-window.c:759
+ msgid "_Copy Key Name"
+ msgstr "কি-র নাম কপি করুন (_C)"
+ 
+-#: ../src/gconf-editor-window.c:766
++#: ../src/gconf-editor-window.c:759
+ msgid "Copy the name of the selected key"
+ msgstr "নির্বাচিত কি-র নাম কপি করুন"
+ 
+-#: ../src/gconf-editor-window.c:768
++#: ../src/gconf-editor-window.c:761
+ msgid "_Find..."
+ msgstr "অনুসন্ধান... (_F)"
+ 
+-#: ../src/gconf-editor-window.c:768
++#: ../src/gconf-editor-window.c:761
+ msgid "Find patterns in keys and values"
+ msgstr "কি এবং মানের মধ্যে ধারাবাহিকতা অনুসন্ধান করা হবে"
+ 
+-#: ../src/gconf-editor-window.c:770
++#: ../src/gconf-editor-window.c:763
+ msgid "_List Recent Keys"
+ msgstr "সম্প্রতি ব্যবহৃত কি-র তালিকা (_L)"
+ 
+-#: ../src/gconf-editor-window.c:770
++#: ../src/gconf-editor-window.c:763
+ msgid "Show recently modified keys"
+ msgstr "সম্প্রতি‌ পরিবর্তিত কি প্রদর্শন করা হবে"
+ 
+-#: ../src/gconf-editor-window.c:773
++#: ../src/gconf-editor-window.c:766
+ msgid "_Add Bookmark"
+ msgstr "বুকমার্ক যোগ করুন (_A)"
+ 
+-#: ../src/gconf-editor-window.c:773
++#: ../src/gconf-editor-window.c:766
+ msgid "Add a bookmark to the selected directory"
+ msgstr "নির্বাচিত ডিরেক্টরিতে বুকমার্ক যোগ করুন"
+ 
+-#: ../src/gconf-editor-window.c:775
++#: ../src/gconf-editor-window.c:768
+ msgid "_Edit Bookmarks"
+ msgstr "বুকমার্ক সম্পাদনা (_E)"
+ 
+-#: ../src/gconf-editor-window.c:775
++#: ../src/gconf-editor-window.c:768
+ msgid "Edit the bookmarks"
+ msgstr "বুকমার্ক সম্পাদন করুন"
+ 
+-#: ../src/gconf-editor-window.c:778
++#: ../src/gconf-editor-window.c:771
+ msgid "_Contents"
+-msgstr "সূচী (_C)"
++msgstr "সূচিপত্র (_C)"
+ 
+-#: ../src/gconf-editor-window.c:778
++#: ../src/gconf-editor-window.c:771
+ msgid "Open the help contents for the Configuration Editor"
+-msgstr "কনফিগারেশন সম্পাদন ব্যবস্থা সম্পর্কিত সহায়িকার সূচী প্রদর্শন করা হবে"
++msgstr "কনফিগারেশন সম্পাদন ব্যবস্থা সম্পর্কিত সহায়িকার সূচিপত্র প্রদর্শন করা হবে"
+ 
+-#: ../src/gconf-editor-window.c:780
++#: ../src/gconf-editor-window.c:773
+ msgid "_About"
+ msgstr "পরিচিতি (_A)"
+ 
+-#: ../src/gconf-editor-window.c:780
++#: ../src/gconf-editor-window.c:773
+ msgid "Show the about dialog for the Configuration Editor"
+ msgstr "কনফিগারেশন সম্পাদন ব্যবস্থা সম্বন্ধীয় ডায়লগ প্রদর্শন করা হবে"
+ 
+-#: ../src/gconf-editor-window.c:783
++#: ../src/gconf-editor-window.c:776
+ msgid "_New Key..."
+ msgstr "নতুন-কি... (_N)"
+ 
+-#: ../src/gconf-editor-window.c:783
++#: ../src/gconf-editor-window.c:776
+ msgid "Create a new key"
+ msgstr "নতুন কি তৈরি করুন"
+ 
+-#: ../src/gconf-editor-window.c:785
++#: ../src/gconf-editor-window.c:778
+ msgid "_Edit Key..."
+ msgstr "কি-সম্পাদনা... (_E)"
+ 
+-#: ../src/gconf-editor-window.c:785
++#: ../src/gconf-editor-window.c:778
+ msgid "Edit the selected key"
+ msgstr "নির্বাচিত কি সম্পাদনা করুন"
+ 
+-#: ../src/gconf-editor-window.c:787
++#: ../src/gconf-editor-window.c:780
+ msgid "_Unset Key"
+ msgstr "কি-র মান বাতিল করা হবে (_U)"
+ 
+-#: ../src/gconf-editor-window.c:787
++#: ../src/gconf-editor-window.c:780
+ msgid "Unset the selected key"
+ msgstr "নির্বাচিত কি-র মান বাতিল করুন"
+ 
+-#: ../src/gconf-editor-window.c:789
++#: ../src/gconf-editor-window.c:782
+ msgid "Set as _Default"
+ msgstr "ডিফল্ট মা রূপে নির্ধারণ করা হবে (_D)"
+ 
+-#: ../src/gconf-editor-window.c:789
++#: ../src/gconf-editor-window.c:782
+ msgid "Set the selected key to be the default"
+ msgstr "নির্বাচিত কি-টি ডিফল্ট রূপে নির্ধারণ করা হবে"
+ 
+-#: ../src/gconf-editor-window.c:791
++#: ../src/gconf-editor-window.c:784
+ msgid "Set as _Mandatory"
+ msgstr "বাধ্যতামূলক মান রূপে নির্ধারণ করা হবে (_M)"
+ 
+-#: ../src/gconf-editor-window.c:791
++#: ../src/gconf-editor-window.c:784
+ msgid "Set the selected key to the mandatory"
+ msgstr "নির্বাচিত কি-টি বাধ্যতামূলক রূপে নির্ধারণ করুন"
+ 
+-#: ../src/gconf-editor-window.c:873
++#: ../src/gconf-editor-window.c:866
+ msgid "Configuration Editor (Default settings)"
+ msgstr "কনফিগারেশন সম্পাদন ব্যবস্থা (ডিফল্ট বৈশিষ্ট্য)"
+ 
+-#: ../src/gconf-editor-window.c:876 ../src/gconf-editor-window.c:1373
++#: ../src/gconf-editor-window.c:869 ../src/gconf-editor-window.c:1365
+ msgid "Configuration Editor (Mandatory settings)"
+ msgstr "কনফিগারেশন সম্পাদন ব্যবস্থা (বাধ্যতামূলক বৈশিষ্ট্য)"
+ 
+-#: ../src/gconf-editor-window.c:1122 ../src/gconf-editor-window.c:1123
+-#: ../src/gconf-editor-window.c:1124 ../src/gconf-editor-window.c:1125
+-#: ../src/gconf-editor-window.c:1154 ../src/gconf-editor-window.c:1162
+-#: ../src/gconf-editor-window.c:1171 ../src/gconf-editor-window.c:1725
+-#: ../src/gconf-editor-window.c:1737 ../src/gconf-editor-window.c:1749
+-#: ../src/gconf-editor-window.c:1764
++#: ../src/gconf-editor-window.c:1114 ../src/gconf-editor-window.c:1115
++#: ../src/gconf-editor-window.c:1116 ../src/gconf-editor-window.c:1117
++#: ../src/gconf-editor-window.c:1146 ../src/gconf-editor-window.c:1154
++#: ../src/gconf-editor-window.c:1163 ../src/gconf-editor-window.c:1711
++#: ../src/gconf-editor-window.c:1723 ../src/gconf-editor-window.c:1735
++#: ../src/gconf-editor-window.c:1750
+ msgid "(None)"
+ msgstr "(শূণ্য)"
+ 
+-#: ../src/gconf-editor-window.c:1332 ../src/gconf-editor-window.c:1342
++#: ../src/gconf-editor-window.c:1324 ../src/gconf-editor-window.c:1334
+ #, c-format
+ msgid ""
+ "Cannot create GConf engine. Error was:\n"
+@@ -301,43 +305,43 @@
+ "GConf ইঞ্জিন নির্মাণ করতে ব্যর্থ। উৎপন্ন ত্রুটি:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:1370
++#: ../src/gconf-editor-window.c:1362
+ msgid "Configuration Editor (Defaults settings)"
+ msgstr "কনফিগারেশন সম্পাদন ব্যবস্থা (ডিফল্ট বৈশিষ্ট্য)"
+ 
+-#: ../src/gconf-editor-window.c:1621
++#: ../src/gconf-editor-window.c:1607
+ msgid "Name"
+ msgstr "নাম"
+ 
+-#: ../src/gconf-editor-window.c:1645
++#: ../src/gconf-editor-window.c:1631
+ msgid "Value"
+ msgstr "মান"
+ 
+-#: ../src/gconf-editor-window.c:1672
++#: ../src/gconf-editor-window.c:1658
+ msgid "Key Documentation"
+ msgstr "কি সম্পর্কীয় নথিপত্র"
+ 
+-#: ../src/gconf-editor-window.c:1701 ../src/gconf-key-editor.c:604
++#: ../src/gconf-editor-window.c:1687 ../src/gconf-key-editor.c:606
+ msgid "This key is not writable"
+ msgstr "এই কি-র মান লেখার অনুমতি নেই "
+ 
+-#: ../src/gconf-editor-window.c:1714
++#: ../src/gconf-editor-window.c:1700
+ msgid "This key has no schema"
+ msgstr "এই কি-র স্কিমা অনুপস্থিত"
+ 
+-#: ../src/gconf-editor-window.c:1719
++#: ../src/gconf-editor-window.c:1705
+ msgid "Key name:"
+ msgstr "কি-র নাম:"
+ 
+-#: ../src/gconf-editor-window.c:1732
++#: ../src/gconf-editor-window.c:1718
+ msgid "Key owner:"
+ msgstr "কি-র মালিক:"
+ 
+-#: ../src/gconf-editor-window.c:1744
++#: ../src/gconf-editor-window.c:1730
+ msgid "Short description:"
+ msgstr "সংক্ষিপ্ত বর্ণনা:"
+ 
+-#: ../src/gconf-editor-window.c:1757
++#: ../src/gconf-editor-window.c:1743
+ msgid "Long description:"
+ msgstr "বিস্তারিত বর্ণনা:"
+ 
+@@ -346,7 +350,7 @@
+ msgstr "সত্য (_r)"
+ 
+ #: ../src/gconf-key-editor.c:90 ../src/gconf-key-editor.c:244
+-#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:635
++#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:637
+ msgid "_False"
+ msgstr "মিথ্যা (_F)"
+ 
+@@ -407,24 +411,24 @@
+ msgid "_Type:"
+ msgstr "ধরন: (_T)"
+ 
+-#: ../src/gconf-key-editor.c:616 ../src/gconf-key-editor.c:634
+-#: ../src/gconf-key-editor.c:653 ../src/gconf-key-editor.c:670
++#: ../src/gconf-key-editor.c:618 ../src/gconf-key-editor.c:636
++#: ../src/gconf-key-editor.c:655 ../src/gconf-key-editor.c:672
+ msgid "_Value:"
+ msgstr "মান: (_V)"
+ 
+-#: ../src/gconf-key-editor.c:693
++#: ../src/gconf-key-editor.c:694
+ msgid "List _type:"
+ msgstr "তালিকার ধরন: (_t)"
+ 
+-#: ../src/gconf-key-editor.c:701
++#: ../src/gconf-key-editor.c:702
+ msgid "_Values:"
+ msgstr "মান: (_V)"
+ 
+-#: ../src/gconf-key-editor.c:803
++#: ../src/gconf-key-editor.c:804
+ msgid "New Key"
+ msgstr "নতুন কি"
+ 
+-#: ../src/gconf-key-editor.c:807
++#: ../src/gconf-key-editor.c:808
+ msgid "Edit Key"
+ msgstr "কি সম্পাদন করুন"
+ 
+@@ -465,12 +469,12 @@
+ msgid "Output Lines"
+ msgstr "আউটপুট লাইন"
+ 
+-#: ../src/main.c:69
++#: ../src/main.c:76
+ msgid "[KEY]"
+ msgstr "[KEY]"
+ 
+ # might be : আপনার সম্পূর্ণ কনফিগারেশন ডাটাবেস সরাসরি এডিট করুন - mak
+-#: ../src/main.c:77
++#: ../src/main.c:84
+ msgid "- Directly edit your entire configuration database"
+ msgstr "- সম্পূর্ণ কনফিগারেশন ডাটাবেস সরাসরি সম্পাদনা করুন"
+ 
+diff -urN a/po/es.po b/po/es.po
+--- a/po/es.po	2010-05-06 17:03:14.477029572 +0530
++++ b/po/es.po	2010-05-06 17:03:36.130050600 +0530
+@@ -1,4 +1,4 @@
+-# translation of gconf-editor.HEAD.po to Español
++# translation of es.po to Spanish
+ # translation of es.po to
+ # Copyright © 2002 the Free Software Foundation
+ # This file is distributed under the same license as the GConf Editor package.
+@@ -7,23 +7,24 @@
+ # Germán Poo Caamaño, <gpoo@ubiobio.cl>, 2002.  (Revisión).
+ # Francisco Javier F. Serrador <serrador@openshine.com>, 2004-2006.
+ # Jorge González <jorgegonz@svn.gnome.org>, 2007, 200, 2009.
++# Gladys Guerrero  <gguerrer@redhat.com>, 2010.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gconf-editor.HEAD\n"
++"Project-Id-Version: es\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2008-11-07 11:22+0100\n"
+-"PO-Revision-Date: 2009-04-12 16:24+0200\n"
+-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+-"Language-Team: Español <gnome-es-list@gnome.org>\n"
++"POT-Creation-Date: 2010-03-29 12:56+0530\n"
++"PO-Revision-Date: 2010-04-14 11:51+1000\n"
++"Last-Translator: Gladys Guerrero  <gguerrer@redhat.com>\n"
++"Language-Team: Spanish <es@li.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: KBabel 1.11.4\n"
+ "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+ 
+-#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:392
+-#: ../src/gconf-editor-window.c:394 ../src/gconf-editor-window.c:879
+-#: ../src/gconf-editor-window.c:1376
++#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:393
++#: ../src/gconf-editor-window.c:395 ../src/gconf-editor-window.c:872
++#: ../src/gconf-editor-window.c:1368
+ msgid "Configuration Editor"
+ msgstr "Editor de configuración"
+ 
+@@ -39,7 +40,7 @@
+ msgid "gconf-editor folder bookmarks"
+ msgstr "carpeta de marcadores de gconf-editor"
+ 
+-#: ../src/gconf-bookmarks-dialog.c:197
++#: ../src/gconf-bookmarks-dialog.c:202
+ msgid "Edit Bookmarks"
+ msgstr "Editar marcadores"
+ 
+@@ -47,22 +48,22 @@
+ msgid "<no value>"
+ msgstr "<sin valor>"
+ 
+-#: ../src/gconf-editor-window.c:358
++#: ../src/gconf-editor-window.c:359
+ #, c-format
+ msgid "Couldn't display help: %s"
+ msgstr "No se pudo mostrar la ayuda: %s"
+ 
+-#: ../src/gconf-editor-window.c:398
++#: ../src/gconf-editor-window.c:399
+ msgid "An editor for the GConf configuration system."
+ msgstr "Un editor para el sistema de configuración GConf."
+ 
+-#: ../src/gconf-editor-window.c:401
++#: ../src/gconf-editor-window.c:402
+ msgid "translator-credits"
+ msgstr ""
+ "Jorge González <jorgegonz@svn.gnome.org>\n"
+ "Francisco Javier F. Serrador <serrador@openshine.com>"
+ 
+-#: ../src/gconf-editor-window.c:428
++#: ../src/gconf-editor-window.c:429
+ #, c-format
+ msgid ""
+ "Couldn't unset key. Error was:\n"
+@@ -71,7 +72,7 @@
+ "No se pudo borrar el valor de la clave. El error fue\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:453
++#: ../src/gconf-editor-window.c:454
+ #, c-format
+ msgid ""
+ "Could not create key. The error is:\n"
+@@ -80,7 +81,7 @@
+ "No se pudo crear la clave. El error es:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:535
++#: ../src/gconf-editor-window.c:536
+ #, c-format
+ msgid ""
+ "Could not change key value. Error message:\n"
+@@ -89,7 +90,7 @@
+ "No se pudo cambiar el valor de la clave. El mensaje de error fue:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:567
++#: ../src/gconf-editor-window.c:568
+ msgid ""
+ "Currently pairs and schemas can't be edited. This will be changed in a later "
+ "version."
+@@ -97,7 +98,7 @@
+ "Actualmente los pares y esquemas no se pueden editar. Esto cambiará en una "
+ "versión futura."
+ 
+-#: ../src/gconf-editor-window.c:646
++#: ../src/gconf-editor-window.c:647
+ #, c-format
+ msgid ""
+ "Could not set value. Error was:\n"
+@@ -106,7 +107,7 @@
+ "No se pudo establecer el valor. El error fue:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:684 ../src/gconf-editor-window.c:732
++#: ../src/gconf-editor-window.c:683 ../src/gconf-editor-window.c:727
+ #, c-format
+ msgid ""
+ "Could not sync value. Error was:\n"
+@@ -115,187 +116,186 @@
+ "No se pudo sincronizar el valor. El error fue:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:746
++#: ../src/gconf-editor-window.c:739
+ msgid "_File"
+-msgstr "_Archivo"
++msgstr "_Fichero"
+ 
+-#: ../src/gconf-editor-window.c:747
++#: ../src/gconf-editor-window.c:740
+ msgid "_Edit"
+ msgstr "_Editar"
+ 
+-#: ../src/gconf-editor-window.c:748
++#: ../src/gconf-editor-window.c:741
+ msgid "_Search"
+-msgstr "_Buscar"
++msgstr "Bu_scar"
+ 
+-#: ../src/gconf-editor-window.c:749
++#: ../src/gconf-editor-window.c:742
+ msgid "_Bookmarks"
+-msgstr "_Marcadores"
++msgstr "Marcadores"
+ 
+-#: ../src/gconf-editor-window.c:750
++#: ../src/gconf-editor-window.c:743
+ msgid "_Help"
+-msgstr "Ay_uda"
++msgstr "Ayuda"
+ 
+-#: ../src/gconf-editor-window.c:752
++#: ../src/gconf-editor-window.c:745
+ msgid "New _Settings Window"
+-msgstr "Ventana de _configuración nueva"
++msgstr "Ventana de nueva_s configuraciones"
+ 
+-#: ../src/gconf-editor-window.c:753
++#: ../src/gconf-editor-window.c:746
+ msgid "Open a new Configuration Editor window editing current settings"
+ msgstr ""
+ "Abre una ventana nueva del Editor de Configuración para editar la "
+ "configuración actual"
+ 
+-#: ../src/gconf-editor-window.c:755
++#: ../src/gconf-editor-window.c:748
+ msgid "New _Defaults Window"
+-msgstr "Ventana de _predeterminados nueva"
++msgstr "Ventana nueva de pre_determinados"
+ 
+-#: ../src/gconf-editor-window.c:756
++#: ../src/gconf-editor-window.c:749
+ msgid "Open a new Configuration Editor window editing system default settings"
+ msgstr ""
+-"Abre una ventana del «Editor de configuración» nueva para editar los ajustes "
++"Abre una nueva ventana del «Editor de configuración» para editar los ajustes "
+ "predeterminados del sistema"
+ 
+-#: ../src/gconf-editor-window.c:758
++#: ../src/gconf-editor-window.c:751
+ msgid "New _Mandatory Window"
+-msgstr "Ventana de _obligatorios nueva"
++msgstr "Ventana nueva obligatoria"
+ 
+-#: ../src/gconf-editor-window.c:759
+-msgid ""
+-"Open a new Configuration Editor window editing system mandatory settings"
++#: ../src/gconf-editor-window.c:752
++msgid "Open a new Configuration Editor window editing system mandatory settings"
+ msgstr ""
+ "Abre una ventana del «Editor de configuración» nueva para editar los ajustes "
+ "obligatorios del sistema"
+ 
+-#: ../src/gconf-editor-window.c:761
++#: ../src/gconf-editor-window.c:754
+ msgid "_Close Window"
+ msgstr "_Cerrar ventana"
+ 
+-#: ../src/gconf-editor-window.c:761
++#: ../src/gconf-editor-window.c:754
+ msgid "Close this window"
+ msgstr "Cierra esta ventana"
+ 
+-#: ../src/gconf-editor-window.c:763
++#: ../src/gconf-editor-window.c:756
+ msgid "_Quit"
+-msgstr "_Salir"
++msgstr "Salir"
+ 
+-#: ../src/gconf-editor-window.c:763
++#: ../src/gconf-editor-window.c:756
+ msgid "Quit the Configuration Editor"
+ msgstr "Sale del «Editor de configuración»"
+ 
+-#: ../src/gconf-editor-window.c:766
++#: ../src/gconf-editor-window.c:759
+ msgid "_Copy Key Name"
+ msgstr "_Copiar el nombre de la clave"
+ 
+-#: ../src/gconf-editor-window.c:766
++#: ../src/gconf-editor-window.c:759
+ msgid "Copy the name of the selected key"
+ msgstr "Copia el nombre de la clave seleccionada"
+ 
+-#: ../src/gconf-editor-window.c:768
++#: ../src/gconf-editor-window.c:761
+ msgid "_Find..."
+-msgstr "_Buscar…"
++msgstr "Buscar…"
+ 
+-#: ../src/gconf-editor-window.c:768
++#: ../src/gconf-editor-window.c:761
+ msgid "Find patterns in keys and values"
+ msgstr "Buscar patrones en las claves y los valores"
+ 
+-#: ../src/gconf-editor-window.c:770
++#: ../src/gconf-editor-window.c:763
+ msgid "_List Recent Keys"
+ msgstr "_Listar claves recientes"
+ 
+-#: ../src/gconf-editor-window.c:770
++#: ../src/gconf-editor-window.c:763
+ msgid "Show recently modified keys"
+ msgstr "Muestra las claves recientemente modificadas"
+ 
+-#: ../src/gconf-editor-window.c:773
++#: ../src/gconf-editor-window.c:766
+ msgid "_Add Bookmark"
+ msgstr "_Añadir marcador"
+ 
+-#: ../src/gconf-editor-window.c:773
++#: ../src/gconf-editor-window.c:766
+ msgid "Add a bookmark to the selected directory"
+ msgstr "Añade un marcador al directorio seleccionado"
+ 
+-#: ../src/gconf-editor-window.c:775
++#: ../src/gconf-editor-window.c:768
+ msgid "_Edit Bookmarks"
+ msgstr "_Editar marcadores"
+ 
+-#: ../src/gconf-editor-window.c:775
++#: ../src/gconf-editor-window.c:768
+ msgid "Edit the bookmarks"
+ msgstr "Edita los marcadores"
+ 
+-#: ../src/gconf-editor-window.c:778
++#: ../src/gconf-editor-window.c:771
+ msgid "_Contents"
+-msgstr "Índ_ice"
++msgstr "_Contenido"
+ 
+-#: ../src/gconf-editor-window.c:778
++#: ../src/gconf-editor-window.c:771
+ msgid "Open the help contents for the Configuration Editor"
+ msgstr "Abre el contenido de la ayuda para el «Editor de configuración»"
+ 
+-#: ../src/gconf-editor-window.c:780
++#: ../src/gconf-editor-window.c:773
+ msgid "_About"
+-msgstr "Acerca _de"
++msgstr "_Acerca de"
+ 
+-#: ../src/gconf-editor-window.c:780
++#: ../src/gconf-editor-window.c:773
+ msgid "Show the about dialog for the Configuration Editor"
+ msgstr "Muestra el diálogo «Acerca de» para el «Editor de configuración»"
+ 
+-#: ../src/gconf-editor-window.c:783
++#: ../src/gconf-editor-window.c:776
+ msgid "_New Key..."
+ msgstr "Clave _nueva…"
+ 
+-#: ../src/gconf-editor-window.c:783
++#: ../src/gconf-editor-window.c:776
+ msgid "Create a new key"
+ msgstr "Crea una clave nueva"
+ 
+-#: ../src/gconf-editor-window.c:785
++#: ../src/gconf-editor-window.c:778
+ msgid "_Edit Key..."
+ msgstr "_Editar clave…"
+ 
+-#: ../src/gconf-editor-window.c:785
++#: ../src/gconf-editor-window.c:778
+ msgid "Edit the selected key"
+ msgstr "Edita la clave seleccionada"
+ 
+-#: ../src/gconf-editor-window.c:787
++#: ../src/gconf-editor-window.c:780
+ msgid "_Unset Key"
+-msgstr "_Desestablecer clave"
++msgstr "Q_uitar clave"
+ 
+-#: ../src/gconf-editor-window.c:787
++#: ../src/gconf-editor-window.c:780
+ msgid "Unset the selected key"
+ msgstr "Desestablece la clave seleccionada"
+ 
+-#: ../src/gconf-editor-window.c:789
++#: ../src/gconf-editor-window.c:782
+ msgid "Set as _Default"
+-msgstr "Establecer como pre_determinado"
++msgstr "Establecer como pre_determinada"
+ 
+-#: ../src/gconf-editor-window.c:789
++#: ../src/gconf-editor-window.c:782
+ msgid "Set the selected key to be the default"
+ msgstr "Establece la clave seleccionada para que sea la predeterminada"
+ 
+-#: ../src/gconf-editor-window.c:791
++#: ../src/gconf-editor-window.c:784
+ msgid "Set as _Mandatory"
+-msgstr "Establecer como _obligatorio"
++msgstr "Establecer co_mo obligatorio"
+ 
+-#: ../src/gconf-editor-window.c:791
++#: ../src/gconf-editor-window.c:784
+ msgid "Set the selected key to the mandatory"
+ msgstr "Establece la clave seleccionada como obligatoria"
+ 
+-#: ../src/gconf-editor-window.c:873
++#: ../src/gconf-editor-window.c:866
+ msgid "Configuration Editor (Default settings)"
+ msgstr "Editor de configuración (Ajustes predeterminados)"
+ 
+-#: ../src/gconf-editor-window.c:876 ../src/gconf-editor-window.c:1373
++#: ../src/gconf-editor-window.c:869 ../src/gconf-editor-window.c:1365
+ msgid "Configuration Editor (Mandatory settings)"
+ msgstr "Editor de configuración (Ajustes obligatorios)"
+ 
+-#: ../src/gconf-editor-window.c:1122 ../src/gconf-editor-window.c:1123
+-#: ../src/gconf-editor-window.c:1124 ../src/gconf-editor-window.c:1125
+-#: ../src/gconf-editor-window.c:1154 ../src/gconf-editor-window.c:1162
+-#: ../src/gconf-editor-window.c:1171 ../src/gconf-editor-window.c:1725
+-#: ../src/gconf-editor-window.c:1737 ../src/gconf-editor-window.c:1749
+-#: ../src/gconf-editor-window.c:1764
++#: ../src/gconf-editor-window.c:1114 ../src/gconf-editor-window.c:1115
++#: ../src/gconf-editor-window.c:1116 ../src/gconf-editor-window.c:1117
++#: ../src/gconf-editor-window.c:1146 ../src/gconf-editor-window.c:1154
++#: ../src/gconf-editor-window.c:1163 ../src/gconf-editor-window.c:1711
++#: ../src/gconf-editor-window.c:1723 ../src/gconf-editor-window.c:1735
++#: ../src/gconf-editor-window.c:1750
+ msgid "(None)"
+ msgstr "(Ninguno)"
+ 
+-#: ../src/gconf-editor-window.c:1332 ../src/gconf-editor-window.c:1342
++#: ../src/gconf-editor-window.c:1324 ../src/gconf-editor-window.c:1334
+ #, c-format
+ msgid ""
+ "Cannot create GConf engine. Error was:\n"
+@@ -304,52 +304,52 @@
+ "No se puede crear el motor Gconf. El error fue:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:1370
++#: ../src/gconf-editor-window.c:1362
+ msgid "Configuration Editor (Defaults settings)"
+ msgstr "Editor de configuración (Ajustes predeterminados)"
+ 
+-#: ../src/gconf-editor-window.c:1621
++#: ../src/gconf-editor-window.c:1607
+ msgid "Name"
+ msgstr "Nombre"
+ 
+-#: ../src/gconf-editor-window.c:1645
++#: ../src/gconf-editor-window.c:1631
+ msgid "Value"
+ msgstr "Valor"
+ 
+-#: ../src/gconf-editor-window.c:1672
++#: ../src/gconf-editor-window.c:1658
+ msgid "Key Documentation"
+ msgstr "Documentación de la clave"
+ 
+-#: ../src/gconf-editor-window.c:1701 ../src/gconf-key-editor.c:604
++#: ../src/gconf-editor-window.c:1687 ../src/gconf-key-editor.c:606
+ msgid "This key is not writable"
+ msgstr "Esta clave no es editable"
+ 
+-#: ../src/gconf-editor-window.c:1714
++#: ../src/gconf-editor-window.c:1700
+ msgid "This key has no schema"
+ msgstr "Esta clave no tiene esquema"
+ 
+-#: ../src/gconf-editor-window.c:1719
++#: ../src/gconf-editor-window.c:1705
+ msgid "Key name:"
+ msgstr "Nombre de la clave:"
+ 
+-#: ../src/gconf-editor-window.c:1732
++#: ../src/gconf-editor-window.c:1718
+ msgid "Key owner:"
+ msgstr "Propietario de la clave:"
+ 
+-#: ../src/gconf-editor-window.c:1744
++#: ../src/gconf-editor-window.c:1730
+ msgid "Short description:"
+ msgstr "Descripción corta:"
+ 
+-#: ../src/gconf-editor-window.c:1757
++#: ../src/gconf-editor-window.c:1743
+ msgid "Long description:"
+ msgstr "Descripción larga:"
+ 
+ #: ../src/gconf-key-editor.c:87
+ msgid "T_rue"
+-msgstr "_Verdadero"
++msgstr "Verdade_ro"
+ 
+ #: ../src/gconf-key-editor.c:90 ../src/gconf-key-editor.c:244
+-#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:635
++#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:637
+ msgid "_False"
+ msgstr "_Falso"
+ 
+@@ -410,24 +410,24 @@
+ msgid "_Type:"
+ msgstr "_Tipo:"
+ 
+-#: ../src/gconf-key-editor.c:616 ../src/gconf-key-editor.c:634
+-#: ../src/gconf-key-editor.c:653 ../src/gconf-key-editor.c:670
++#: ../src/gconf-key-editor.c:618 ../src/gconf-key-editor.c:636
++#: ../src/gconf-key-editor.c:655 ../src/gconf-key-editor.c:672
+ msgid "_Value:"
+ msgstr "_Valor:"
+ 
+-#: ../src/gconf-key-editor.c:693
++#: ../src/gconf-key-editor.c:694
+ msgid "List _type:"
+ msgstr "_Tipo de lista:"
+ 
+-#: ../src/gconf-key-editor.c:701
++#: ../src/gconf-key-editor.c:702
+ msgid "_Values:"
+ msgstr "_Valores:"
+ 
+-#: ../src/gconf-key-editor.c:803
++#: ../src/gconf-key-editor.c:804
+ msgid "New Key"
+ msgstr "Clave nueva"
+ 
+-#: ../src/gconf-key-editor.c:807
++#: ../src/gconf-key-editor.c:808
+ msgid "Edit Key"
+ msgstr "Editar la clave"
+ 
+@@ -441,7 +441,7 @@
+ 
+ #: ../src/gconf-search-dialog.c:144
+ msgid "_Search for: "
+-msgstr "_Buscar: "
++msgstr "Bu_scar: "
+ 
+ #: ../src/gconf-search-dialog.c:165
+ msgid "Search also in key _names"
+@@ -467,16 +467,11 @@
+ msgid "Output Lines"
+ msgstr "Líneas de salida"
+ 
+-#: ../src/main.c:69
++#: ../src/main.c:76
+ msgid "[KEY]"
+ msgstr "[CLAVE]"
+ 
+-#: ../src/main.c:77
++#: ../src/main.c:84
+ msgid "- Directly edit your entire configuration database"
+ msgstr "- Edite directamente su base de datos de configuración completa"
+ 
+-#~ msgid "Type"
+-#~ msgstr "Tipo"
+-
+-#~ msgid "The Configuration Editor window type."
+-#~ msgstr "El tipo de ventana del «Editor de configuración»."
+diff -urN a/po/kn.po b/po/kn.po
+--- a/po/kn.po	2010-05-06 17:03:14.475029516 +0530
++++ b/po/kn.po	2010-05-06 17:03:35.736029894 +0530
+@@ -7,7 +7,7 @@
+ msgstr ""
+ "Project-Id-Version: kn\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2008-11-07 11:22+0100\n"
++"POT-Creation-Date: 2010-03-29 12:56+0530\n"
+ "PO-Revision-Date: 2009-03-25 13:47+0530\n"
+ "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+ "Language-Team: Kannada <en@li.org>\n"
+@@ -17,9 +17,9 @@
+ "X-Generator: KBabel 1.11.4\n"
+ "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+ 
+-#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:392
+-#: ../src/gconf-editor-window.c:394 ../src/gconf-editor-window.c:879
+-#: ../src/gconf-editor-window.c:1376
++#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:393
++#: ../src/gconf-editor-window.c:395 ../src/gconf-editor-window.c:872
++#: ../src/gconf-editor-window.c:1368
+ msgid "Configuration Editor"
+ msgstr "ಸಂರಚನಾ ಸಂಪಾದಕ"
+ 
+@@ -35,7 +35,7 @@
+ msgid "gconf-editor folder bookmarks"
+ msgstr "gconf-ಸಂಪದಾಕ ಕಡತಕೋಶ ಬುಕ್‌ಮಾರ್ಕುಗಳು"
+ 
+-#: ../src/gconf-bookmarks-dialog.c:197
++#: ../src/gconf-bookmarks-dialog.c:202
+ msgid "Edit Bookmarks"
+ msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಸಂಪಾದಿಸು"
+ 
+@@ -43,20 +43,20 @@
+ msgid "<no value>"
+ msgstr "<ಯಾವುದೆ ಮೌಲ್ಯವಿಲ್ಲ>"
+ 
+-#: ../src/gconf-editor-window.c:358
++#: ../src/gconf-editor-window.c:359
+ #, c-format
+ msgid "Couldn't display help: %s"
+ msgstr "ನೆರವನ್ನು ತೋರಿಸಲು ಆಗಲಿಲ್ಲ: %s"
+ 
+-#: ../src/gconf-editor-window.c:398
++#: ../src/gconf-editor-window.c:399
+ msgid "An editor for the GConf configuration system."
+ msgstr "GConf ಸಂರಚನಾ ವ್ಯವಸ್ಥೆಯನ್ನು ಸಂಪಾದಿಸುವ ಒಂದು ಸಂಪಾದಕ."
+ 
+-#: ../src/gconf-editor-window.c:401
++#: ../src/gconf-editor-window.c:402
+ msgid "translator-credits"
+ msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>, ರೇಣುಕಾ ಪ್ರಸಾದ್ <rennie606@yahoo.co.in>"
+ 
+-#: ../src/gconf-editor-window.c:428
++#: ../src/gconf-editor-window.c:429
+ #, c-format
+ msgid ""
+ "Couldn't unset key. Error was:\n"
+@@ -65,7 +65,7 @@
+ "ಕೀಲಿಯನ್ನು ಹೊಂದಿಸದೆ ಇರಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ. ದೋಷವು ಹೀಗಿದೆ:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:453
++#: ../src/gconf-editor-window.c:454
+ #, c-format
+ msgid ""
+ "Could not create key. The error is:\n"
+@@ -74,7 +74,7 @@
+ "ಕೀಲಿಯನ್ನು ನಿರ್ಮಿಸಲು  ಸಾಧ್ಯವಾಗಿಲ್ಲ, ದೋಷವು ಹೀಗಿದೆ :\n"
+ "%s "
+ 
+-#: ../src/gconf-editor-window.c:535
++#: ../src/gconf-editor-window.c:536
+ #, c-format
+ msgid ""
+ "Could not change key value. Error message:\n"
+@@ -83,7 +83,7 @@
+ "ಕೀಲಿಯ ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಲಾಗಲಿಲ್ಲ. ದೋಷ ಸಂದೇಶವು ಹೀಗಿದೆ :\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:567
++#: ../src/gconf-editor-window.c:568
+ msgid ""
+ "Currently pairs and schemas can't be edited. This will be changed in a later "
+ "version."
+@@ -91,7 +91,7 @@
+ "ಪ್ರಸಕ್ತ ಜೋಡಿಗಳನ್ನು ಹಾಗು ಸ್ಕೀಮಾಗಳನ್ನು ಸಂಪಾದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಇದನ್ನು ಮುಂದಿನ ಆವೃತ್ತಿಲ್ಲಿ "
+ "ಬದಲಾಯಿಸಲಾಗುವುದು."
+ 
+-#: ../src/gconf-editor-window.c:646
++#: ../src/gconf-editor-window.c:647
+ #, c-format
+ msgid ""
+ "Could not set value. Error was:\n"
+@@ -100,7 +100,7 @@
+ "ಮೌಲ್ಯವನ್ನು ಹೊಂದಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದೋಷವು ಹೀಗಿದೆ:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:684 ../src/gconf-editor-window.c:732
++#: ../src/gconf-editor-window.c:683 ../src/gconf-editor-window.c:727
+ #, c-format
+ msgid ""
+ "Could not sync value. Error was:\n"
+@@ -109,180 +109,182 @@
+ "ಮೌಲ್ಯವನ್ನು ಮೇಳೈಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದೋಷವು ಹೀಗಿದೆ:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:746
++#: ../src/gconf-editor-window.c:739
+ msgid "_File"
+ msgstr "ಕಡತ(_F)"
+ 
+-#: ../src/gconf-editor-window.c:747
++#: ../src/gconf-editor-window.c:740
+ msgid "_Edit"
+ msgstr "ಸಂಪಾದಿಸು(_E)"
+ 
+-#: ../src/gconf-editor-window.c:748
++#: ../src/gconf-editor-window.c:741
+ msgid "_Search"
+ msgstr "ಹುಡುಕು(_S)"
+ 
+-#: ../src/gconf-editor-window.c:749
++#: ../src/gconf-editor-window.c:742
+ msgid "_Bookmarks"
+ msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳು(_B)"
+ 
+-#: ../src/gconf-editor-window.c:750
++#: ../src/gconf-editor-window.c:743
+ msgid "_Help"
+ msgstr "ನೆರವು(_H)"
+ 
+-#: ../src/gconf-editor-window.c:752
++#: ../src/gconf-editor-window.c:745
+ msgid "New _Settings Window"
+-msgstr "ಹೊಸ ಸಂಯೋಜನೆಗಳ ವಿಂಡೊ(_S)"
++msgstr "ಹೊಸ ಸಿದ್ಧತೆಗಳ ವಿಂಡೊ(_S)"
+ 
+-#: ../src/gconf-editor-window.c:753
++#: ../src/gconf-editor-window.c:746
+ msgid "Open a new Configuration Editor window editing current settings"
+-msgstr "ಪ್ರಸಕ್ತ ಸಂಯೋಜನೆಗಳನ್ನು ಸಂಪಾದಿಸುವ ಒಂದು ಹೊಸ gconf ಸಂಪಾದಕವನ್ನು ತೆರೆಯಿರಿ"
++msgstr "ಪ್ರಸಕ್ತ ಸಿದ್ಧತೆಗಳನ್ನು ಸಂಪಾದಿಸುವ ಒಂದು ಹೊಸ gconf ಸಂಪಾದಕವನ್ನು ತೆರೆಯಿರಿ"
+ 
+-#: ../src/gconf-editor-window.c:755
++#: ../src/gconf-editor-window.c:748
+ msgid "New _Defaults Window"
+-msgstr "ಹೊಸ ಡಿಫಾಲ್ಟುಗಳ ವಿಂಡೊ(_D)"
++msgstr "ಹೊಸ ಪೂರ್ವನಿಯೋಜಿತಗಳ ವಿಂಡೊ(_D)"
+ 
+-#: ../src/gconf-editor-window.c:756
++#: ../src/gconf-editor-window.c:749
+ msgid "Open a new Configuration Editor window editing system default settings"
+-msgstr "ಗಣಕದ ಪೂರ್ವನಿಯೋಜಿತ ಸಂಯೋಜನೆಗಳನ್ನು ಸಂಪಾದಿಸುವ ಒಂದು ಹೊಸ gconf ಸಂಪಾದಕವನ್ನು ತೆರೆಯಿರಿ"
++msgstr ""
++"ಗಣಕದ ಪೂರ್ವನಿಯೋಜಿತ ಸಿದ್ಧತೆಗಳನ್ನು ಸಂಪಾದಿಸುವ ಒಂದು ಹೊಸ gconf ಸಂಪಾದಕವನ್ನು ತೆರೆಯಿರಿ"
+ 
+-#: ../src/gconf-editor-window.c:758
++#: ../src/gconf-editor-window.c:751
+ msgid "New _Mandatory Window"
+ msgstr "ಹೊಸ ಕಡ್ಡಾಯ ವಿಂಡೊ(_M)"
+ 
+-#: ../src/gconf-editor-window.c:759
+-msgid "Open a new Configuration Editor window editing system mandatory settings"
+-msgstr "ಗಣಕದ ಕಡ್ಡಾಯ ಸಂಯೋಜನೆಗಳನ್ನು ಸಂಪಾದಿಸುವ ಒಂದು ಹೊಸ gconf ಸಂಪಾದಕವನ್ನು ತೆರೆಯಿರಿ"
++#: ../src/gconf-editor-window.c:752
++msgid ""
++"Open a new Configuration Editor window editing system mandatory settings"
++msgstr "ಗಣಕದ ಕಡ್ಡಾಯ ಸಿದ್ಧತೆಗಳನ್ನು ಸಂಪಾದಿಸುವ ಒಂದು ಹೊಸ gconf ಸಂಪಾದಕವನ್ನು ತೆರೆಯಿರಿ"
+ 
+-#: ../src/gconf-editor-window.c:761
++#: ../src/gconf-editor-window.c:754
+ msgid "_Close Window"
+ msgstr "ವಿಂಡೋವನ್ನು ಮುಚ್ಚು(_C)"
+ 
+-#: ../src/gconf-editor-window.c:761
++#: ../src/gconf-editor-window.c:754
+ msgid "Close this window"
+ msgstr "ಈ ವಿಂಡೋವನ್ನು ಮುಚ್ಚು"
+ 
+-#: ../src/gconf-editor-window.c:763
++#: ../src/gconf-editor-window.c:756
+ msgid "_Quit"
+ msgstr "ಹೊರನಡೆ(_Q)"
+ 
+-#: ../src/gconf-editor-window.c:763
++#: ../src/gconf-editor-window.c:756
+ msgid "Quit the Configuration Editor"
+ msgstr "ಸಂರಚನಾ ಸಂಪಾದಕದಿಂದ ಹೊರನಡೆ"
+ 
+-#: ../src/gconf-editor-window.c:766
++#: ../src/gconf-editor-window.c:759
+ msgid "_Copy Key Name"
+ msgstr "ಕೀಲಿ ಹೆಸರನ್ನು ಕಾಪಿ ಮಾಡು(_C)"
+ 
+-#: ../src/gconf-editor-window.c:766
++#: ../src/gconf-editor-window.c:759
+ msgid "Copy the name of the selected key"
+ msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಕೀಲಿಯ ಹೆಸರನ್ನು ಕಾಪಿ ಮಾಡು"
+ 
+-#: ../src/gconf-editor-window.c:768
++#: ../src/gconf-editor-window.c:761
+ msgid "_Find..."
+ msgstr "ಹುಡುಕು(_F)..."
+ 
+-#: ../src/gconf-editor-window.c:768
++#: ../src/gconf-editor-window.c:761
+ msgid "Find patterns in keys and values"
+ msgstr "ಕೀಲಿಗಳಲ್ಲಿ ಹಾಗು ಮೌಲ್ಯಗಳಲ್ಲಿ ವಿನ್ಯಾಸವನ್ನು ಪತ್ತೆ ಮಾಡು"
+ 
+-#: ../src/gconf-editor-window.c:770
++#: ../src/gconf-editor-window.c:763
+ msgid "_List Recent Keys"
+ msgstr "ಇತ್ತೀಚಿನ ಕೀಲಿಗಳ ಪಟ್ಟಿ(_L)"
+ 
+-#: ../src/gconf-editor-window.c:770
++#: ../src/gconf-editor-window.c:763
+ msgid "Show recently modified keys"
+ msgstr "ಇತ್ತೀಚೆಗೆ ಬದಲಾಯಿಸಲಾದ ಕೀಲಿಗಳನ್ನು ತೋರಿಸು"
+ 
+-#: ../src/gconf-editor-window.c:773
++#: ../src/gconf-editor-window.c:766
+ msgid "_Add Bookmark"
+ msgstr "ಬುಕ್‌ಮಾರ್ಕನ್ನು ಸೇರಿಸು(_A)"
+ 
+-#: ../src/gconf-editor-window.c:773
++#: ../src/gconf-editor-window.c:766
+ msgid "Add a bookmark to the selected directory"
+ msgstr "ಆಯ್ಕೆಮಾಡಿದ ಕಡತಕೋಶಕ್ಕೆ ಒಂದು ಬುಕ್‌ಮಾರ್ಕನ್ನು ಸೇರಿಸು"
+ 
+-#: ../src/gconf-editor-window.c:775
++#: ../src/gconf-editor-window.c:768
+ msgid "_Edit Bookmarks"
+ msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಸಂಪಾದಿಸು(_E)"
+ 
+-#: ../src/gconf-editor-window.c:775
++#: ../src/gconf-editor-window.c:768
+ msgid "Edit the bookmarks"
+ msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಸಂಪಾದಿಸು"
+ 
+-#: ../src/gconf-editor-window.c:778
++#: ../src/gconf-editor-window.c:771
+ msgid "_Contents"
+ msgstr "ಒಳ ವಿಷಯಗಳು(_C)"
+ 
+-#: ../src/gconf-editor-window.c:778
++#: ../src/gconf-editor-window.c:771
+ msgid "Open the help contents for the Configuration Editor"
+ msgstr "GConf ಸಂಪಾದಕಕ್ಕಾಗಿನ ನೆರವಿನ ಒಳಪಿಡಿಗಳನ್ನು ತೋರಿಸು"
+ 
+-#: ../src/gconf-editor-window.c:780
++#: ../src/gconf-editor-window.c:773
+ msgid "_About"
+ msgstr "ಇದರ ಬಗ್ಗೆ(_A)"
+ 
+-#: ../src/gconf-editor-window.c:780
++#: ../src/gconf-editor-window.c:773
+ msgid "Show the about dialog for the Configuration Editor"
+ msgstr "gconf ಸಂಪಾದಕದ ಬಗೆಗಿನ ಸಂವಾದವನ್ನು ತೋರಿಸು"
+ 
+-#: ../src/gconf-editor-window.c:783
++#: ../src/gconf-editor-window.c:776
+ msgid "_New Key..."
+ msgstr "ಹೊಸ ಕೀಲಿ(_N)..."
+ 
+-#: ../src/gconf-editor-window.c:783
++#: ../src/gconf-editor-window.c:776
+ msgid "Create a new key"
+ msgstr "ಹೊಸ ಕೀಲಿಯನ್ನು ನಿರ್ಮಿಸು"
+ 
+-#: ../src/gconf-editor-window.c:785
++#: ../src/gconf-editor-window.c:778
+ msgid "_Edit Key..."
+ msgstr "ಸಂಪಾದಿಸು(_E).."
+ 
+-#: ../src/gconf-editor-window.c:785
++#: ../src/gconf-editor-window.c:778
+ msgid "Edit the selected key"
+ msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಕೀಲಿಯನ್ನು ಸಂಪಾದಿಸು"
+ 
+-#: ../src/gconf-editor-window.c:787
++#: ../src/gconf-editor-window.c:780
+ msgid "_Unset Key"
+ msgstr "ಕೀಲಿಯನ್ನು ಹೊಂದಿಸಬೇಡ(_U)..."
+ 
+-#: ../src/gconf-editor-window.c:787
++#: ../src/gconf-editor-window.c:780
+ msgid "Unset the selected key"
+ msgstr "ಆಯ್ಕೆ ಮಾಡಲಾದ ಕೀಲಿಯನ್ನು ಹೊಂದಿಸಬೇಡ"
+ 
+-#: ../src/gconf-editor-window.c:789
++#: ../src/gconf-editor-window.c:782
+ msgid "Set as _Default"
+-msgstr "ಡಿಫಾಲ್ಟ್ ಆಗಿ ಹೊಂದಿಸು(_D)"
++msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಹೊಂದಿಸು(_D)"
+ 
+-#: ../src/gconf-editor-window.c:789
++#: ../src/gconf-editor-window.c:782
+ msgid "Set the selected key to be the default"
+-msgstr "ಆಯ್ಕೆ ಮಾಡಲಾದ ಕೀಲಿಯನ್ನು ಡೀಫಾಲ್ಟಾಗಿ ಹೊಂದಿಸು"
++msgstr "ಆಯ್ಕೆ ಮಾಡಲಾದ ಕೀಲಿಯನ್ನು ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಹೊಂದಿಸು"
+ 
+-#: ../src/gconf-editor-window.c:791
++#: ../src/gconf-editor-window.c:784
+ msgid "Set as _Mandatory"
+ msgstr "ಕಡ್ಡಾಯ ಎಂದು ಗುರುತಿಸು(_M)"
+ 
+-#: ../src/gconf-editor-window.c:791
++#: ../src/gconf-editor-window.c:784
+ msgid "Set the selected key to the mandatory"
+ msgstr "ಆಯ್ಕೆ ಮಾಡಲಾದ ಕೀಲಿಯನ್ನು ಕಡ್ಡಾಯವೆಂದು ಗುರುತಿಸು"
+ 
+-#: ../src/gconf-editor-window.c:873
++#: ../src/gconf-editor-window.c:866
+ msgid "Configuration Editor (Default settings)"
+-msgstr "ಸಂರಚನಾ ಸಂಪಾದಕ (ಪೂರ್ವನಿಯೋಜಿತ ಸಂಯೋಜನೆ)"
++msgstr "ಸಂರಚನಾ ಸಂಪಾದಕ (ಪೂರ್ವನಿಯೋಜಿತ ಸಿದ್ಧತೆ)"
+ 
+-#: ../src/gconf-editor-window.c:876 ../src/gconf-editor-window.c:1373
++#: ../src/gconf-editor-window.c:869 ../src/gconf-editor-window.c:1365
+ msgid "Configuration Editor (Mandatory settings)"
+-msgstr "ಸಂರಚನಾ ಸಂಪಾದಕ (ಕಡ್ಡಾಯ ಸಂಯೋಜನೆ)"
++msgstr "ಸಂರಚನಾ ಸಂಪಾದಕ (ಕಡ್ಡಾಯ ಸಿದ್ಧತೆ)"
+ 
+-#: ../src/gconf-editor-window.c:1122 ../src/gconf-editor-window.c:1123
+-#: ../src/gconf-editor-window.c:1124 ../src/gconf-editor-window.c:1125
+-#: ../src/gconf-editor-window.c:1154 ../src/gconf-editor-window.c:1162
+-#: ../src/gconf-editor-window.c:1171 ../src/gconf-editor-window.c:1725
+-#: ../src/gconf-editor-window.c:1737 ../src/gconf-editor-window.c:1749
+-#: ../src/gconf-editor-window.c:1764
++#: ../src/gconf-editor-window.c:1114 ../src/gconf-editor-window.c:1115
++#: ../src/gconf-editor-window.c:1116 ../src/gconf-editor-window.c:1117
++#: ../src/gconf-editor-window.c:1146 ../src/gconf-editor-window.c:1154
++#: ../src/gconf-editor-window.c:1163 ../src/gconf-editor-window.c:1711
++#: ../src/gconf-editor-window.c:1723 ../src/gconf-editor-window.c:1735
++#: ../src/gconf-editor-window.c:1750
+ msgid "(None)"
+ msgstr "(ಯಾವುದು ಅಲ್ಲ)"
+ 
+-#: ../src/gconf-editor-window.c:1332 ../src/gconf-editor-window.c:1342
++#: ../src/gconf-editor-window.c:1324 ../src/gconf-editor-window.c:1334
+ #, c-format
+ msgid ""
+ "Cannot create GConf engine. Error was:\n"
+@@ -291,43 +293,43 @@
+ "GConf ಎಂಜಿನ್ ಅನ್ನು ನಿರ್ಮಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ. ದೋಷವು ಹೀಗಿದೆ:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:1370
++#: ../src/gconf-editor-window.c:1362
+ msgid "Configuration Editor (Defaults settings)"
+-msgstr "ಸಂರಚನಾ ಸಂಪಾದಕ (ಪೂರ್ವನಿಯೋಜಿತ ಸಂಯೋಜನೆಗಳು)"
++msgstr "ಸಂರಚನಾ ಸಂಪಾದಕ (ಪೂರ್ವನಿಯೋಜಿತ ಸಿದ್ಧತೆಗಳು)"
+ 
+-#: ../src/gconf-editor-window.c:1621
++#: ../src/gconf-editor-window.c:1607
+ msgid "Name"
+ msgstr "ಹೆಸರು"
+ 
+-#: ../src/gconf-editor-window.c:1645
++#: ../src/gconf-editor-window.c:1631
+ msgid "Value"
+ msgstr "ಮೌಲ್ಯ"
+ 
+-#: ../src/gconf-editor-window.c:1672
++#: ../src/gconf-editor-window.c:1658
+ msgid "Key Documentation"
+ msgstr "ಮುಖ್ಯವಾದ ದಸ್ತಾವೇಜು"
+ 
+-#: ../src/gconf-editor-window.c:1701 ../src/gconf-key-editor.c:604
++#: ../src/gconf-editor-window.c:1687 ../src/gconf-key-editor.c:606
+ msgid "This key is not writable"
+ msgstr "ಈ ಕೀಲಿಯಲ್ಲಿ ಬರೆಯಲು ಆಗುವುದಿಲ್ಲ"
+ 
+-#: ../src/gconf-editor-window.c:1714
++#: ../src/gconf-editor-window.c:1700
+ msgid "This key has no schema"
+ msgstr "ಈ ಕೀಲಿಯು ಯಾವುದೆ ಸ್ಕೀಮಾ ಅನ್ನು ಹೊಂದಿಲ್ಲ"
+ 
+-#: ../src/gconf-editor-window.c:1719
++#: ../src/gconf-editor-window.c:1705
+ msgid "Key name:"
+ msgstr "ಕೀಲಿ ಹೆಸರು:"
+ 
+-#: ../src/gconf-editor-window.c:1732
++#: ../src/gconf-editor-window.c:1718
+ msgid "Key owner:"
+ msgstr "ಕೀಲಿ ಮಾಲೀಕ:"
+ 
+-#: ../src/gconf-editor-window.c:1744
++#: ../src/gconf-editor-window.c:1730
+ msgid "Short description:"
+ msgstr "ಸಂಕ್ಷಿಪ್ತ ವಿವರಣೆ:"
+ 
+-#: ../src/gconf-editor-window.c:1757
++#: ../src/gconf-editor-window.c:1743
+ msgid "Long description:"
+ msgstr "ಉದ್ದನೆಯ ವಿವರಣೆ:"
+ 
+@@ -336,7 +338,7 @@
+ msgstr "ನಿಜ(_r)"
+ 
+ #: ../src/gconf-key-editor.c:90 ../src/gconf-key-editor.c:244
+-#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:635
++#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:637
+ msgid "_False"
+ msgstr "ಸುಳ್ಳು(_F)"
+ 
+@@ -397,24 +399,24 @@
+ msgid "_Type:"
+ msgstr "ವರ್ಗ:"
+ 
+-#: ../src/gconf-key-editor.c:616 ../src/gconf-key-editor.c:634
+-#: ../src/gconf-key-editor.c:653 ../src/gconf-key-editor.c:670
++#: ../src/gconf-key-editor.c:618 ../src/gconf-key-editor.c:636
++#: ../src/gconf-key-editor.c:655 ../src/gconf-key-editor.c:672
+ msgid "_Value:"
+ msgstr "ಮೌಲ್ಯ(_V):"
+ 
+-#: ../src/gconf-key-editor.c:693
++#: ../src/gconf-key-editor.c:694
+ msgid "List _type:"
+ msgstr "ಪಟ್ಟಿಯ ಬಗೆ(_t):"
+ 
+-#: ../src/gconf-key-editor.c:701
++#: ../src/gconf-key-editor.c:702
+ msgid "_Values:"
+ msgstr "ಮೌಲ್ಯಗಳು(_V):"
+ 
+-#: ../src/gconf-key-editor.c:803
++#: ../src/gconf-key-editor.c:804
+ msgid "New Key"
+ msgstr "ಹೊಸ ಕೀಲಿ"
+ 
+-#: ../src/gconf-key-editor.c:807
++#: ../src/gconf-key-editor.c:808
+ msgid "Edit Key"
+ msgstr "ಸಂಪಾದನಾ ಕೀಲಿ"
+ 
+@@ -454,11 +456,10 @@
+ msgid "Output Lines"
+ msgstr "ಔಟ್‌ಪುಟ್ ಸಾಲುಗಳು"
+ 
+-#: ../src/main.c:69
++#: ../src/main.c:76
+ msgid "[KEY]"
+ msgstr "[KEY]"
+ 
+-#: ../src/main.c:77
++#: ../src/main.c:84
+ msgid "- Directly edit your entire configuration database"
+ msgstr "- ನೇರವಾಗಿ ನಿಮ್ಮ ಸಂಪೂರ್ಣ ಸಂರಚನಾ ದತ್ತಸಂಚಯವನ್ನು ಸಂಪಾದಿಸಿ"
+-
+diff -urN a/po/ta.po b/po/ta.po
+--- a/po/ta.po	2010-05-06 17:03:14.483029651 +0530
++++ b/po/ta.po	2010-05-06 17:03:36.962050423 +0530
+@@ -7,26 +7,27 @@
+ # Jayaradha N <jaya@pune.redhat.com>, 2004.
+ # Felix <ifelix25@gmail.com>, 2006.
+ # Dr.T.Vasudevan <agnihot3@gmail.com>, 2007.
+-# I. Felix <ifelix@redhat.com>, 2009.
++# I. Felix <ifelix@redhat.com>, 2009, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gconf-editor.HEAD.ta\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2008-11-07 11:22+0100\n"
+-"PO-Revision-Date: 2009-03-11 21:58+0530\n"
+-"Last-Translator: I. Felix <ifelix@redhat.com>\n"
+-"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
++"POT-Creation-Date: 2010-03-29 12:56+0530\n"
++"PO-Revision-Date: 2010-04-15 13:45+0530\n"
++"Last-Translator: \n"
++"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: KBabel 1.11.4\n"
+-"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
++"\n"
+ "\n"
+ "\n"
+ 
+-#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:392
+-#: ../src/gconf-editor-window.c:394 ../src/gconf-editor-window.c:879
+-#: ../src/gconf-editor-window.c:1376
++#: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:393
++#: ../src/gconf-editor-window.c:395 ../src/gconf-editor-window.c:872
++#: ../src/gconf-editor-window.c:1368
+ msgid "Configuration Editor"
+ msgstr "வடிவமைப்பு திருத்தி"
+ 
+@@ -42,7 +43,7 @@
+ msgid "gconf-editor folder bookmarks"
+ msgstr "gconf-editor புத்தக குறிகள் அடைவு"
+ 
+-#: ../src/gconf-bookmarks-dialog.c:197
++#: ../src/gconf-bookmarks-dialog.c:202
+ msgid "Edit Bookmarks"
+ msgstr "புத்தகக்குறிகளை திருத்து"
+ 
+@@ -50,20 +51,22 @@
+ msgid "<no value>"
+ msgstr "<no value>"
+ 
+-#: ../src/gconf-editor-window.c:358
++#: ../src/gconf-editor-window.c:359
+ #, c-format
+ msgid "Couldn't display help: %s"
+ msgstr "உதவியை காட்ட முடியவில்லை: %s"
+ 
+-#: ../src/gconf-editor-window.c:398
++#: ../src/gconf-editor-window.c:399
+ msgid "An editor for the GConf configuration system."
+ msgstr "ஜிகான்ப் வடிவமைப்புகளை திருத்த உதவும் திருத்தி"
+ 
+-#: ../src/gconf-editor-window.c:401
++#: ../src/gconf-editor-window.c:402
+ msgid "translator-credits"
+-msgstr "மொழிபெயர்ப்பாளர் -நன்றி அறிதல்"
++msgstr ""
++"I. Felix <ifelix@redhat.com>"
++"Dr.T.Vasudevan <agnihot3@gmail.com>"
+ 
+-#: ../src/gconf-editor-window.c:428
++#: ../src/gconf-editor-window.c:429
+ #, c-format
+ msgid ""
+ "Couldn't unset key. Error was:\n"
+@@ -72,7 +75,7 @@
+ "விசையை சுழியாக்க முடியவில்லை. பின்வரும் பிழை நேர்ந்துள்ளது:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:453
++#: ../src/gconf-editor-window.c:454
+ #, c-format
+ msgid ""
+ "Could not create key. The error is:\n"
+@@ -81,7 +84,7 @@
+ "விசையை உருவாக்க முடிவில்லை.பின்வரும் பிழை நேர்ந்துள்ளது:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:535
++#: ../src/gconf-editor-window.c:536
+ #, c-format
+ msgid ""
+ "Could not change key value. Error message:\n"
+@@ -90,13 +93,14 @@
+ "விசையின் மதிப்பை மாற்ற முடியவில்லை. பின்வரும் பிழை நேர்ந்துள்ளது:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:567
++#: ../src/gconf-editor-window.c:568
+ msgid ""
+ "Currently pairs and schemas can't be edited. This will be changed in a later "
+ "version."
+-msgstr "தற்போது ஜோடிகள் மற்றும் முறைகளை திருத்த முடியாது. அடுத்த பதிப்பில் மாற்றங்கள் செய்யப்படும்"
++msgstr ""
++"தற்போது ஜோடிகள் மற்றும் முறைகளை திருத்த முடியாது. அடுத்த பதிப்பில் மாற்றங்கள் செய்யப்படும்"
+ 
+-#: ../src/gconf-editor-window.c:646
++#: ../src/gconf-editor-window.c:647
+ #, c-format
+ msgid ""
+ "Could not set value. Error was:\n"
+@@ -105,7 +109,7 @@
+ "மதிப்பை அமைக்க முடியவில்லை. பிழை:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:684 ../src/gconf-editor-window.c:732
++#: ../src/gconf-editor-window.c:683 ../src/gconf-editor-window.c:727
+ #, c-format
+ msgid ""
+ "Could not sync value. Error was:\n"
+@@ -114,182 +118,182 @@
+ "மதிப்பை ஒத்திசைக்க முடியவில்லை. பிழை:\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:746
++#: ../src/gconf-editor-window.c:739
+ msgid "_File"
+-msgstr "_க கோப்பு"
++msgstr "கோப்பு (_F)"
+ 
+-#: ../src/gconf-editor-window.c:747
++#: ../src/gconf-editor-window.c:740
+ msgid "_Edit"
+-msgstr "_த திருத்துக"
++msgstr "திருத்துக (_E)"
+ 
+-#: ../src/gconf-editor-window.c:748
++#: ../src/gconf-editor-window.c:741
+ msgid "_Search"
+-msgstr "_ட தேடுக"
++msgstr "தேடுக (_S)"
+ 
+-#: ../src/gconf-editor-window.c:749
++#: ../src/gconf-editor-window.c:742
+ msgid "_Bookmarks"
+-msgstr "_ப புத்தகக்குறிப்புகள்"
++msgstr "புத்தகக்குறிப்புகள் (_B)"
+ 
+-#: ../src/gconf-editor-window.c:750
++#: ../src/gconf-editor-window.c:743
+ msgid "_Help"
+-msgstr "_உதவி"
++msgstr "உதவி (_H)"
+ 
+-#: ../src/gconf-editor-window.c:752
++#: ../src/gconf-editor-window.c:745
+ msgid "New _Settings Window"
+-msgstr "புதிய _அமைப்பு சாளரங்கள்"
++msgstr "புதிய அமைப்பு சாளரங்கள் (_S)"
+ 
+-#: ../src/gconf-editor-window.c:753
++#: ../src/gconf-editor-window.c:746
+ msgid "Open a new Configuration Editor window editing current settings"
+ msgstr "நடப்பு அமைவுகளை திருத்தும் ஒரு புதிய கட்டமைப்பு திருத்தி சாளரத்தை திறக்கவும்"
+ 
+-#: ../src/gconf-editor-window.c:755
++#: ../src/gconf-editor-window.c:748
+ msgid "New _Defaults Window"
+-msgstr "_ன புதிய முன்னிருப்பு சாளரங்கள்"
++msgstr "புதிய முன்னிருப்பு சாளரங்கள் (_D)"
+ 
+-#: ../src/gconf-editor-window.c:756
++#: ../src/gconf-editor-window.c:749
+ msgid "Open a new Configuration Editor window editing system default settings"
+ msgstr ""
+ "கணினி முன்னிருப்பு அமைவுகளை திருத்தும் ஒரு புதிய கட்டமைப்பு திருத்தி சாளரத்தை "
+ "திறக்கவும்"
+ 
+-#: ../src/gconf-editor-window.c:758
++#: ../src/gconf-editor-window.c:751
+ msgid "New _Mandatory Window"
+-msgstr "புதிய _அவசியமான சாளரம்"
++msgstr "புதிய அவசியமான சாளரம் (_M)"
+ 
+-#: ../src/gconf-editor-window.c:759
++#: ../src/gconf-editor-window.c:752
+ msgid "Open a new Configuration Editor window editing system mandatory settings"
+ msgstr "தேவையான அமைவுகளை திருத்தும் ஒரு புதிய கட்டமைப்பு திருத்தி சாளரத்தை திறக்கவும்"
+ 
+-#: ../src/gconf-editor-window.c:761
++#: ../src/gconf-editor-window.c:754
+ msgid "_Close Window"
+-msgstr "_ம சாளரத்தை மூடு"
++msgstr "சாளரத்தை மூடு (_C)"
+ 
+-#: ../src/gconf-editor-window.c:761
++#: ../src/gconf-editor-window.c:754
+ msgid "Close this window"
+ msgstr "இந்த சாளரத்தை மூடு"
+ 
+-#: ../src/gconf-editor-window.c:763
++#: ../src/gconf-editor-window.c:756
+ msgid "_Quit"
+-msgstr "_வ _வெளிச்செல்"
++msgstr "வெளிச்செல் (_Q)"
+ 
+-#: ../src/gconf-editor-window.c:763
++#: ../src/gconf-editor-window.c:756
+ msgid "Quit the Configuration Editor"
+ msgstr "கட்டமைப்பு திருத்தியை விட்டு வெளியேறவும்"
+ 
+-#: ../src/gconf-editor-window.c:766
++#: ../src/gconf-editor-window.c:759
+ msgid "_Copy Key Name"
+-msgstr "விசையின் பெயரை _நகலெடு"
++msgstr "விசையின் பெயரை நகலெடு (_C)"
+ 
+-#: ../src/gconf-editor-window.c:766
++#: ../src/gconf-editor-window.c:759
+ msgid "Copy the name of the selected key"
+ msgstr "தேர்வு செய்யப்பட்ட விசையை நகலெடு"
+ 
+-#: ../src/gconf-editor-window.c:768
++#: ../src/gconf-editor-window.c:761
+ msgid "_Find..."
+-msgstr "_கண்டுபிடி..."
++msgstr "கண்டுபிடி (_F)..."
+ 
+-#: ../src/gconf-editor-window.c:768
++#: ../src/gconf-editor-window.c:761
+ msgid "Find patterns in keys and values"
+ msgstr "விசை மற்றும் மதிப்பின் மாதிரியை கண்டுபிடி"
+ 
+-#: ../src/gconf-editor-window.c:770
++#: ../src/gconf-editor-window.c:763
+ msgid "_List Recent Keys"
+-msgstr "_சமீபத்திய விசைகளை பட்டியலிடு"
++msgstr "சமீபத்திய விசைகளை பட்டியலிடு (_L)"
+ 
+-#: ../src/gconf-editor-window.c:770
++#: ../src/gconf-editor-window.c:763
+ msgid "Show recently modified keys"
+ msgstr "சமீபத்தில் திருத்தப்பட்ட விசைகளை காட்டு"
+ 
+-#: ../src/gconf-editor-window.c:773
++#: ../src/gconf-editor-window.c:766
+ msgid "_Add Bookmark"
+-msgstr "_ச புத்தகக்குறிகளை சேர்"
++msgstr "புத்தகக்குறிகளை சேர் (_A)"
+ 
+-#: ../src/gconf-editor-window.c:773
++#: ../src/gconf-editor-window.c:766
+ msgid "Add a bookmark to the selected directory"
+ msgstr "தேர்வு செய்யப்பட்ட அடைவில் புத்தக குறிகளை சேர்"
+ 
+-#: ../src/gconf-editor-window.c:775
++#: ../src/gconf-editor-window.c:768
+ msgid "_Edit Bookmarks"
+-msgstr "_த புத்தகக்குறிகளை திருத்து"
++msgstr "புத்தகக்குறிகளை திருத்து (_E)"
+ 
+-#: ../src/gconf-editor-window.c:775
++#: ../src/gconf-editor-window.c:768
+ msgid "Edit the bookmarks"
+ msgstr "புத்தகக்குறிப்புகளை திருத்து"
+ 
+-#: ../src/gconf-editor-window.c:778
++#: ../src/gconf-editor-window.c:771
+ msgid "_Contents"
+-msgstr "_ள உள்ளடக்கங்கள்"
++msgstr "உள்ளடக்கங்கள் (_C)"
+ 
+-#: ../src/gconf-editor-window.c:778
++#: ../src/gconf-editor-window.c:771
+ msgid "Open the help contents for the Configuration Editor"
+ msgstr "கட்டமைப்பு திருத்தியின் உதவி உள்ளடக்கங்களை திறக்கவும்"
+ 
+-#: ../src/gconf-editor-window.c:780
++#: ../src/gconf-editor-window.c:773
+ msgid "_About"
+-msgstr "_அறிமுகம்"
++msgstr "பற்றி (_A)"
+ 
+-#: ../src/gconf-editor-window.c:780
++#: ../src/gconf-editor-window.c:773
+ msgid "Show the about dialog for the Configuration Editor"
+ msgstr "கட்டமைப்பு திருத்தியின் உரையாடலை காட்டவும்"
+ 
+-#: ../src/gconf-editor-window.c:783
++#: ../src/gconf-editor-window.c:776
+ msgid "_New Key..."
+-msgstr "_ப புதிய விசை..."
++msgstr "புதிய விசை (_N)..."
+ 
+-#: ../src/gconf-editor-window.c:783
++#: ../src/gconf-editor-window.c:776
+ msgid "Create a new key"
+ msgstr "புதிய விசையை உருவாக்கு"
+ 
+-#: ../src/gconf-editor-window.c:785
++#: ../src/gconf-editor-window.c:778
+ msgid "_Edit Key..."
+-msgstr "_த விசையை திருத்து..."
++msgstr "விசையை திருத்து (_E)..."
+ 
+-#: ../src/gconf-editor-window.c:785
++#: ../src/gconf-editor-window.c:778
+ msgid "Edit the selected key"
+ msgstr "தேர்வு செய்யப்பட்ட விசையை திருத்து"
+ 
+-#: ../src/gconf-editor-window.c:787
++#: ../src/gconf-editor-window.c:780
+ msgid "_Unset Key"
+-msgstr "_அமைக்கப்படாத விசை..."
++msgstr "அமைக்கப்படாத விசை (_U)..."
+ 
+-#: ../src/gconf-editor-window.c:787
++#: ../src/gconf-editor-window.c:780
+ msgid "Unset the selected key"
+ msgstr "தேர்வு செய்யப்பட்ட விசையை அமைப்பு நீக்கு"
+ 
+-#: ../src/gconf-editor-window.c:789
++#: ../src/gconf-editor-window.c:782
+ msgid "Set as _Default"
+-msgstr "_ம முன்னிருப்பாக அமை"
++msgstr "முன்னிருப்பாக அமை  (_D)"
+ 
+-#: ../src/gconf-editor-window.c:789
++#: ../src/gconf-editor-window.c:782
+ msgid "Set the selected key to be the default"
+ msgstr "தேர்வு செய்யப்பட்ட விசை இயல்பாக இருக்க அமை"
+ 
+-#: ../src/gconf-editor-window.c:791
++#: ../src/gconf-editor-window.c:784
+ msgid "Set as _Mandatory"
+-msgstr "_அவசியம் என அமை"
++msgstr "அவசியம் என அமை (_M)"
+ 
+-#: ../src/gconf-editor-window.c:791
++#: ../src/gconf-editor-window.c:784
+ msgid "Set the selected key to the mandatory"
+ msgstr "தேர்வு செய்யப்பட்ட விசையை அவசியம் என அமை"
+ 
+-#: ../src/gconf-editor-window.c:873
++#: ../src/gconf-editor-window.c:866
+ msgid "Configuration Editor (Default settings)"
+ msgstr "கட்டமைப்பு திருத்தி (முன்னிருப்பு அமைவுகள்)"
+ 
+-#: ../src/gconf-editor-window.c:876 ../src/gconf-editor-window.c:1373
++#: ../src/gconf-editor-window.c:869 ../src/gconf-editor-window.c:1365
+ msgid "Configuration Editor (Mandatory settings)"
+ msgstr "கட்டமைப்பு திருத்தி (அவசிய அமைவுகள்)"
+ 
+-#: ../src/gconf-editor-window.c:1122 ../src/gconf-editor-window.c:1123
+-#: ../src/gconf-editor-window.c:1124 ../src/gconf-editor-window.c:1125
+-#: ../src/gconf-editor-window.c:1154 ../src/gconf-editor-window.c:1162
+-#: ../src/gconf-editor-window.c:1171 ../src/gconf-editor-window.c:1725
+-#: ../src/gconf-editor-window.c:1737 ../src/gconf-editor-window.c:1749
+-#: ../src/gconf-editor-window.c:1764
++#: ../src/gconf-editor-window.c:1114 ../src/gconf-editor-window.c:1115
++#: ../src/gconf-editor-window.c:1116 ../src/gconf-editor-window.c:1117
++#: ../src/gconf-editor-window.c:1146 ../src/gconf-editor-window.c:1154
++#: ../src/gconf-editor-window.c:1163 ../src/gconf-editor-window.c:1711
++#: ../src/gconf-editor-window.c:1723 ../src/gconf-editor-window.c:1735
++#: ../src/gconf-editor-window.c:1750
+ msgid "(None)"
+ msgstr "(ஒன்றுமில்லை)"
+ 
+-#: ../src/gconf-editor-window.c:1332 ../src/gconf-editor-window.c:1342
++#: ../src/gconf-editor-window.c:1324 ../src/gconf-editor-window.c:1334
+ #, c-format
+ msgid ""
+ "Cannot create GConf engine. Error was:\n"
+@@ -298,54 +302,54 @@
+ "GConf இயந்திரத்தை உருவாக்குவதில் பிழை :\n"
+ "%s"
+ 
+-#: ../src/gconf-editor-window.c:1370
++#: ../src/gconf-editor-window.c:1362
+ msgid "Configuration Editor (Defaults settings)"
+ msgstr "கட்டமைப்பு திருத்தி (முன்னிருப்பு அமைப்புகள்)"
+ 
+-#: ../src/gconf-editor-window.c:1621
++#: ../src/gconf-editor-window.c:1607
+ msgid "Name"
+ msgstr "பெயர்"
+ 
+-#: ../src/gconf-editor-window.c:1645
++#: ../src/gconf-editor-window.c:1631
+ msgid "Value"
+ msgstr "மதிப்பு"
+ 
+-#: ../src/gconf-editor-window.c:1672
++#: ../src/gconf-editor-window.c:1658
+ msgid "Key Documentation"
+ msgstr "விசையைப் பற்றிய ஆவணங்கள்"
+ 
+-#: ../src/gconf-editor-window.c:1701 ../src/gconf-key-editor.c:604
++#: ../src/gconf-editor-window.c:1687 ../src/gconf-key-editor.c:606
+ msgid "This key is not writable"
+ msgstr "இந்த விசையை எழுத முடியாது"
+ 
+-#: ../src/gconf-editor-window.c:1714
++#: ../src/gconf-editor-window.c:1700
+ msgid "This key has no schema"
+ msgstr "இந்த விசையில் முறைமை இல்லை"
+ 
+-#: ../src/gconf-editor-window.c:1719
++#: ../src/gconf-editor-window.c:1705
+ msgid "Key name:"
+ msgstr "விசையின் பெயர்:"
+ 
+-#: ../src/gconf-editor-window.c:1732
++#: ../src/gconf-editor-window.c:1718
+ msgid "Key owner:"
+ msgstr "விசை உரிமையாளர்:"
+ 
+-#: ../src/gconf-editor-window.c:1744
++#: ../src/gconf-editor-window.c:1730
+ msgid "Short description:"
+ msgstr "சிறிய விளக்கம்:"
+ 
+-#: ../src/gconf-editor-window.c:1757
++#: ../src/gconf-editor-window.c:1743
+ msgid "Long description:"
+ msgstr "விரிவான விளக்கம்:"
+ 
+ #: ../src/gconf-key-editor.c:87
+ msgid "T_rue"
+-msgstr "_சரி"
++msgstr "சரி (_r)"
+ 
+ #: ../src/gconf-key-editor.c:90 ../src/gconf-key-editor.c:244
+-#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:635
++#: ../src/gconf-key-editor.c:349 ../src/gconf-key-editor.c:637
+ msgid "_False"
+-msgstr "_தவறு"
++msgstr "தவறு (_F)"
+ 
+ #. These have to be ordered so the EDIT_ enum matches the
+ #. * menu indices
+@@ -382,7 +386,7 @@
+ 
+ #: ../src/gconf-key-editor.c:235
+ msgid "_New list value:"
+-msgstr "_ப புதிய பட்டியல் மதிப்பு "
++msgstr "புதிய பட்டியல் மதிப்பு (_N)"
+ 
+ #: ../src/gconf-key-editor.c:321
+ msgid "Edit List Entry"
+@@ -390,7 +394,7 @@
+ 
+ #: ../src/gconf-key-editor.c:337
+ msgid "_Edit list value:"
+-msgstr "_த பட்டியல் மதிப்பினை திருத்தவும் "
++msgstr "பட்டியல் மதிப்பினை திருத்தவும் (_E):"
+ 
+ #: ../src/gconf-key-editor.c:558
+ msgid "Path:"
+@@ -398,30 +402,30 @@
+ 
+ #: ../src/gconf-key-editor.c:569
+ msgid "_Name:"
+-msgstr "_ய பெயர்"
++msgstr "பெயர் (_N):"
+ 
+ #: ../src/gconf-key-editor.c:581
+ msgid "_Type:"
+-msgstr "_வகை:"
++msgstr "வகை (_T):"
+ 
+-#: ../src/gconf-key-editor.c:616 ../src/gconf-key-editor.c:634
+-#: ../src/gconf-key-editor.c:653 ../src/gconf-key-editor.c:670
++#: ../src/gconf-key-editor.c:618 ../src/gconf-key-editor.c:636
++#: ../src/gconf-key-editor.c:655 ../src/gconf-key-editor.c:672
+ msgid "_Value:"
+-msgstr "_மதிப்பு:"
++msgstr "மதிப்பு (_V):"
+ 
+-#: ../src/gconf-key-editor.c:693
++#: ../src/gconf-key-editor.c:694
+ msgid "List _type:"
+-msgstr "பட்டியல்__வகை:"
++msgstr "பட்டியல் வகை (_t):"
+ 
+-#: ../src/gconf-key-editor.c:701
++#: ../src/gconf-key-editor.c:702
+ msgid "_Values:"
+-msgstr "_மதிப்பு:"
++msgstr "மதிப்புகள் (_V):"
+ 
+-#: ../src/gconf-key-editor.c:803
++#: ../src/gconf-key-editor.c:804
+ msgid "New Key"
+ msgstr "புதிய விசை"
+ 
+-#: ../src/gconf-key-editor.c:807
++#: ../src/gconf-key-editor.c:808
+ msgid "Edit Key"
+ msgstr "விசையைத் திருத்தவும்"
+ 
+@@ -435,15 +439,15 @@
+ 
+ #: ../src/gconf-search-dialog.c:144
+ msgid "_Search for: "
+-msgstr "_த தேடு:"
++msgstr "இதற்கு தேடு (_S):"
+ 
+ #: ../src/gconf-search-dialog.c:165
+ msgid "Search also in key _names"
+-msgstr "_ய விசை பெயரிலும் தேடு"
++msgstr "விசை பெயரிலும் தேடு (_n)"
+ 
+ #: ../src/gconf-search-dialog.c:168
+ msgid "Search also in key _values"
+-msgstr "_ம விசை மதிப்பிலும் தேடு"
++msgstr "விசை மதிப்பிலும் தேடு (_v)"
+ 
+ #: ../src/gedit-output-window.c:347
+ msgid "Close the output window"
+@@ -461,11 +465,11 @@
+ msgid "Output Lines"
+ msgstr "வெளியீட்டு வரிகள்"
+ 
+-#: ../src/main.c:69
++#: ../src/main.c:76
+ msgid "[KEY]"
+ msgstr "[KEY]"
+ 
+-#: ../src/main.c:77
++#: ../src/main.c:84
+ msgid "- Directly edit your entire configuration database"
+ msgstr "- உங்கள் ஒட்டுமொத்த வடிவமைப்பு தரவுத்தளத்தையும் நேரடியாக திருத்தலாம்"
+ 
