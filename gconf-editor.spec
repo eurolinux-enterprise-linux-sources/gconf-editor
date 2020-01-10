@@ -3,7 +3,7 @@
 Summary: Editor/admin tool for GConf
 Name: gconf-editor
 Version: 3.0.1
-Release: 7%{?dist}
+Release: 8%{?dist}
 URL: http://www.gnome.org
 #VCS: git:git://git.gnome.org/gconf-editor
 Source0: http://download.gnome.org/sources/gconf-editor/3.0/%{name}-%{version}.tar.xz
@@ -23,6 +23,7 @@ BuildRequires: gnome-doc-utils
 BuildRequires: intltool
 BuildRequires: gnome-common
 BuildRequires: autoconf automake libtool
+Patch0: fix-crash.patch
 
 %description
 gconf-editor allows you to browse and modify GConf configuration
@@ -30,6 +31,7 @@ sources.
 
 %prep
 %setup -q
+%patch0 -p1 -b .fix-crash
 
 %build
 %configure --disable-scrollkeeper
@@ -87,6 +89,10 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor >&/dev/null || :
 %dir %{_datadir}/omf/gconf-editor
 
 %changelog
+* Mon Mar 23 2015 Ray Strode <rstrode@redhat.com> 3.0.1-8
+- Fix crash
+  Resolves: #1141346
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.0.1-7
 - Mass rebuild 2014-01-24
 
