@@ -3,7 +3,7 @@
 Summary: Editor/admin tool for GConf
 Name: gconf-editor
 Version: 3.0.1
-Release: 5%{?dist}
+Release: 7%{?dist}
 URL: http://www.gnome.org
 #VCS: git:git://git.gnome.org/gconf-editor
 Source0: http://download.gnome.org/sources/gconf-editor/3.0/%{name}-%{version}.tar.xz
@@ -87,6 +87,12 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor >&/dev/null || :
 %dir %{_datadir}/omf/gconf-editor
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.0.1-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.0.1-6
+- Mass rebuild 2013-12-27
+
 * Sun Feb 24 2013 Kalev Lember <kalevlember@gmail.com> - 3.0.1-5
 - Remove the desktop file vendor prefix
 
